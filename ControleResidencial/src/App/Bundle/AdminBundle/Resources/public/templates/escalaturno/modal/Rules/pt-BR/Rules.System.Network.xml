@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringTable>
+	<String ID="PassiveConnection">Inclui conexões ativas e passivas</String>
+	<String ID="AccSinceBoot">Acumulado desde a inicialização</String>
+	<String ID="GroupNetwork">Rede</String>
+	<String ID="RuleDisplay">Nível de Exibição da Rede</String>
+	<String ID="RuleHideCtrs">Ocultar Contadores de Comentários</String>
+</StringTable>

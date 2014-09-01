@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<!-- Matriz Interessado - Detail -->
+<div>
+    <form>
+        <div class="content-tab">
+            <div style="padding-bottom: 5px; margin-bottom: 15px;">
+                <div class="form-item" style="padding-top: 7px;">
+                    <b style="font-size:14px;" >DETALHES DO INTERESSADO</b>
+                </div>
+                <div style="text-align: right; float: right;">
+                    <!-- Botão Editar -->
+                    <button style="margin-right: 10px;" class="btn btn-primary"
+                            id="buttonEdit" ui-sref="matriz-interessado.editar({id:currentEntity.id})"  >Alterar
+                    </button>
+                    <!-- Botão remover -->
+                    <button style="margin-right: 10px;" class="btn btn-danger"
+                            id="buttonRemove" ng-click="changeToRemove(currentEntity)">Excluir
+                    </button>
+                    <!-- Botão Voltar -->
+                    <button style="margin-right: 20px;" class="btn"
+                            id="buttonBack" ui-sref="matriz-interessado.listar">Voltar
+                    </button>
+
+
+                </div>
+                <div style="border-bottom: 1px solid #ededed; margin: 10px 20px 0px 20px"/>
+            </div>
+
+            <!--<div class="form-item" style="width: 500px;">
+                <b>Nome</b>
+                <label>{{currentEntity.nome}}</label>
+            </div>
+            <br>
+            <div class="form-item">
+                <b>Organização</b>
+                <label>{{currentEntity.organizacao}}</label>
+            </div>
+            <br>-->
+        </div>
+    </form>
+</div>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringTable>
+	<String ID="GroupSummary">Adicionar Blocos de Resumo</String>
+	<String ID="RuleMemorySummary">Resumo da Memória</String>
+	<String ID="RuleDiskSummary">Resumo do Disco</String>
+	<String ID="RuleNetworkSummary">Resumo da Rede</String>
+</StringTable>

@@ -1,0 +1,14 @@
+<div ng-switch on="currentState">
+    <div ng-switch-when="campodinamico.criar">
+    	<div ng-include="'resource/admin?file=templates/campodinamico/campodinamico-form.html'"></div>
+    </div>
+    <div ng-switch-when="campodinamico.criar.br">
+        <div ng-include="'resource/admin?file=templates/campodinamico/campodinamico-form.html'"></div>
+    </div>
+    <div ng-switch-when="campodinamico.criar.es">
+        <div ng-include="'resource/admin?file=templates/campodinamico/campodinamico-form.html'"></div>
+    </div>
+    <div ng-switch-default>
+    	<div ng-include="'resource/admin?file=templates/campodinamico/campodinamico-form.html'"></div>
+    </div>
+</div>

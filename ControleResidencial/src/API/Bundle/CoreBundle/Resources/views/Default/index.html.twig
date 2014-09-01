@@ -1,0 +1,11 @@
+on onBindingComplete() {
+FinanceAppJS.FinanceBasePage.prototype.onBindingComplete.call(this);
+var btnRemoveStock = document.getElementById("btnRemoveStk");
+var btnClearSelection = document.getElementById("btnClearSelection");
+// Set Button Labels Text
+utils.setWinLabelText(btnRemoveStock, "BTN_LABEL_REMOVE_FROM_WATCHLIST");
+utils.setWinLabelText(btnClearSelection, "MyStocksClearSelection");
+},
+onPageLoadComplete: function onPageLoadComplete() {
+FinanceAppJS.FinanceBasePage.prototype.onPageLoadComplete.call(this);
+// log a content view for the watchlist item just once and no more than onc

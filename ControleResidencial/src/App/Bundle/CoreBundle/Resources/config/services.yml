@@ -1,0 +1,7 @@
+parameters:
+#    operadores_core.example.class: Operadores\CoreBundle\Example
+
+services:
+    render_module:
+        class:     "App\Bundle\CoreBundle\Service\RenderModuleService"
+        arguments: ['@service_container']

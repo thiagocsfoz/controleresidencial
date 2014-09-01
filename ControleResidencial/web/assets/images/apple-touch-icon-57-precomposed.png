@@ -1,0 +1,66 @@
+﻿(function () {
+    "use strict"
+
+    
+    WinJS.Utilities.Scheduler._usingWwaScheduler = false;
+
+    WinJS.Namespace.define("Stash", {
+        ShareFlyoutViewModel: WinJS.Class.define(
+            function constructor(share) {
+                
+                this.onAddBookmark = this.onAddBookmark.bind(this);
+                this.onLogoLoaded = this.onLogoLoaded.bind(this);
+
+                
+                WinJS.Utilities.markSupportedForProcessing(this.onAddBookmark);
+                WinJS.Utilities.markSupportedForProcessing(this.onLogoLoaded);
+
+                
+                this.share = share;
+
+                
+                this.bookmarkViewModel = new Stash.StashItemViewModel();
+
+                var currentLocale = Windows.System.UserProfile.GlobalizationPreferences.languages.first();
+
+                
+                this.UIFields = new WinJS.Binding.as({
+                    errorState: Stash.ShareFlyoutViewModel.ErrorState.isLoading,
+                    locale: currentLocale.current 
+                });
+
+                
+                this.sharePackageData = {
+                    title: "",
+                    description: "",
+                    sourceAppName: "",
+                    packageFamilyName: "",
+                    bitmap: null,
+                    applicationLink: null,
+                    webLink: null,
+                    contentSourceApplicationLink: null,
+                    contentSourceWebLink: null,
+                    logo: null,
+                    logoColor: null,
+                    storageItems: null,
+                    html: "",
+                    resourceMap: null,
+                };
+
+                
+                this.sharing = false;
+            },
+            
+            {
+                
+                shareReadyHandler: function () {
+                    var that = this;
+                    this.readShareData().then(function () {
+                        that.parseSharePackage();
+                        StashEvents.stashPerfMark(StashEvents.eventShareFlyoutInvoked_stop, "Share Flyout Invoked Stop");
+
+                        
+                        if (that.bookmarkViewModel) {
+                            StashEvents.stashPerfMark(StashEvents.eventShareImageProcessing_start, "Share Flyout Image Processing Start");
+                            that.bookmarkViewModel.imagePromise.then(function () {
+          

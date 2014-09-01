@@ -1,0 +1,30 @@
+<div ng-switch on="currentState">
+    <div ng-switch-when="datacenter.listar"> 
+    	<div ng-include="'resource/admin?file=templates/datacenter/datacenter-list.html'"></div>
+	</div>
+    <div ng-switch-when="datacenter.detalhe">
+    	<div ng-include="'resource/admin?file=templates/datacenter/datacenter-detail.html'"></div>
+    </div>
+    <div ng-switch-when="datacenter.criar">
+    	<div ng-include="'resource/admin?file=templates/datacenter/datacenter-form.html'"></div>
+    </div>
+    <div ng-switch-when="datacenter.criar.br">
+        <div ng-include="'resource/admin?file=templates/datacenter/datacenter-form.html'"></div>
+    </div>
+    <div ng-switch-when="datacenter.criar.es">
+
+        <div ng-include="'resource/admin?file=templates/datacenter/datacenter-form.html'"></div>
+    </div>
+    <div ng-switch-when="datacenter.editar">
+    	<div ng-include="'resource/admin?file=templates/datacenter/datacenter-form.html'"></div>
+    </div>
+    <div ng-switch-when="datacenter.editar.br">
+        <div ng-include="'resource/admin?file=templates/datacenter/datacenter-form.html'"></div>
+    </div>
+    <div ng-switch-when="datacenter.editar.es">
+        <div ng-include="'resource/admin?file=templates/datacenter/datacenter-form.html'"></div>
+    </div>
+    <div ng-switch-default>
+    	<div ng-include="'resource/admin?file=templates/datacenter/datacenter-list.html'"></div>
+    </div>
+</div>
