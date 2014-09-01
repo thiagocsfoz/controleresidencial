@@ -1,0 +1,55 @@
+<form novalidate name="formPT" role="form" ng-show="currentLang == '.br'" default-button="buttonContinue">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-xs-12">
+                <label required>_[[Título]]</label>
+                <div class="form-group">
+                    <div id="blocoTituloPortugues" ng-hover contenteditable content-editable ng-model="currentBloco.tituloPortugues"
+                         ng-class="{ 'ngInvalid': formPT.tituloPortugues.$error.required && (formPT.$submitted || (browser != 'ie' && formPT.tituloPortugues.$dirty)) }"
+                         class="form-autocomplete-group autocomplete col-xs-9" required></div>
+                    <span ng-show=" formPT.tituloPortugues.$error.required && formPT.tituloPortugues.$hovered " class="tooltip-validation div-tooltip">_[[Título obrigatório]]</span>
+                    <input type="text" name="tituloPortugues" style="display: none;"
+                           ng-model="currentBloco.tituloPortugues"
+                           placeholder="_[[Descrição]]" class="form-control"
+                           required ng-minlength="1"
+                           ng-class="{ 'ngInvalid': formPT.tituloPortugues.$error.required && (form.$submitted || (browser != 'ie' && formPT.tituloPortugues.$dirty)) }" ng-hover>
+                    <button ng-click="modalEquipamentos(true)" class="btn-equipamento btn btn-default" style="margin-left: 5px;">
+                        <span class="glyphicon glyphicon-cog"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-xs-12">
+                <label required>_[[Descrição]]</label>
+                <div class="form-group">
+                    <div style="min-height: 109px;" contenteditable id="blocoDescricaoPortugues" required
+                         ng-hover content-editable ng-model="currentBloco.descricaoPortugues" class="form-autocomplete-group autocomplete col-xs-9"
+                         ng-class="{ 'ngInvalid': formPT.descricaoPortugues.$error.required && (formPT.$submitted || (browser != 'ie' && formPT.descricaoPortugues.$dirty)) }"></div>
+                    <span ng-show=" formPT.descricaoPortugues.$error.required && formPT.descricaoPortugues.$hovered " class="tooltip-validation div-tooltip">_[[Descrição obrigatória]]</span>
+                    <input type="text" name="descricaoPortugues" style="display: none;"
+                           ng-model="currentBloco.descricaoPortugues"
+                           placeholder="_[[Descrição]]" class="form-control"
+                           required ng-minlength="1"
+                           ng-class="{ 'ngInvalid': form.descricaoEspanhol.$error.required && (form.$submitted || (browser != 'ie' && formPT.descricaoPortugues.$dirty)) }" ng-hover>
+                    <button ng-click="modalEquipamentos()" style="margin-left: 5px;" class="btn-equipamento btn btn-default">
+                        <span class="glyphicon glyphicon-cog"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-xs-6 col-md-12">
+                <label required>_[[Repetir]]</label>
+                <div class="form-group" style="display: -webkit-box;">
+                    <input type="radio" name="repetir" ng-model="currentBloco.repetir" ng-checked="currentBloco.hasRepetition == true" value="true">_[[Sim]]
+                    <input type="radio" name="repetir" ng-model="currentBloco.repetir" ng-checked="currentBloco.hasRepetition == false" value="false">_[[Não]]
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

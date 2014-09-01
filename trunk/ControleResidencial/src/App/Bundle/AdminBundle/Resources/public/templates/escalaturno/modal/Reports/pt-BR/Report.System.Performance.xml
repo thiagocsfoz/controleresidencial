@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringTable>
+	<String ID="topNetworkOutbound">Cliente de Saída Superior</String>
+	<String ID="topNetworkOutboundBytes">Enviada em</String>
+	<String ID="topNetworkInbound">Cliente de Entrada Superior</String>
+	<String ID="topNetworkInboundBytes">Recebido</String>
+	<String ID="diskQueue">Comprimento da fila do disco</String>
+</StringTable>

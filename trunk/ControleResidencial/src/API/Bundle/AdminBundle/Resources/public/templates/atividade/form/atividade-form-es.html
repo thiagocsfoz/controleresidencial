@@ -1,0 +1,38 @@
+<form novalidate name="formES" role="form" ng-show="currentLang == '.es'">
+    <div class="form-group">
+        <label required>_[[Tipo de Atividade]]</label>
+        <select class="form-control" name="tipo" style="width: 180px" ng-model="currentAtividade.tipo">
+            <option value="ABERTA">_[[Aberta]]</option>
+            <option value="UNICA">_[[Única]]</option>
+            <option value="MULTI">_[[Multi]]</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label required>_[[Nível Crítico]]</label>
+        <select class="form-control" name="nivelCritico" style="width: 180px"  ng-model="currentAtividade.nivelCritico">
+            <option value="BAIXO">_[[Baixo]]</option>
+            <option value="MEDIO">_[[Médio]]</option>
+            <option value="ALTO">_[[Alto]]</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-xs-6 col-md-6">
+                <label required>_[[Descrição]]</label>
+                <div class="form-group" style="width: 543px;">
+                    <div style="max-width: 500px; width: 500px; min-height: 174px; float: left" contenteditable id="atividadeDescricaoEspanhol" required maxlength="255" ng-hover content-editable ng-model="currentAtividade.descricaoEspanhol" class="form-control autocomplete"></div>
+                    <input type="text" name="descricaoEspanhol"   style="width: 400px; display: none;"
+                           ng-model="currentAtividade.descricaoEspanhol"
+                           placeholder="_[[Descrição]]" class="form-control"
+                           required maxlength="255" ng-minlength="1"
+                           ng-class="{ 'ngInvalid': formES.descricaoEspanhol.$error.required && (formES.$submitted || (browser != 'ie' && formES.descricaoEspanhol.$dirty)) }" ng-hover>
+                    <button ng-click="modalEquipamentos()" ng-show="actionResposta == 'adicionar' || actionResposta == 'editar'" class="btn-equipamento btn btn-default" style="float:right">
+                        <span class="glyphicon glyphicon-cog"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

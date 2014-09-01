@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<!-- Sample - List -->
+<div>
+    <div class="content-tab">
+        <div class="header-module">
+            <div class="header-space">
+                <div class="title-module">
+                    _[[Equipamentos]]
+                </div>
+                <div class="buttons-module">
+                    <button class="btn-add btn btn-primary" ui-sref="equipamento.criar">_[[Adicionar novo]]</button>
+                </div>
+            </div>
+        </div>
+        <div class="content-module">
+            <div ng-include="'resource/core?file=templates/alert.html'"></div>
+
+            <form>
+                <div class="form-group">
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <select ng-model="currentFilter.dataCenter"
+                                    name="dataCenter"
+                                    class="form-control" style="width: 100%;">
+                                <option value="">_[[Todos os  Data Centers]]</option>
+                                <option ng-selected="currentFilter.dataCenter.id == datacenter.id" ng-repeat="datacenter in dataCenterList track by $index" value="{{ $index }}" title="{{ currentLang == '.br' ? (datacenter.nomePortuguesCompleto != '' ? datacenter.nomePortuguesCompleto : datacenter.nomeEspanholCompleto) : (datacenter.nomeEspanholCompleto != '' ? datacenter.nomeEspanholCompleto : datacenter.nomePortuguesCompleto ) }}">{{ currentLang == '.br' ? (datacenter.nomePortugues == '' ? datacenter.nomeEspanhol : datacenter.nomePortugues) : (datacenter.nomeEspanhol == '' ? datacenter.nomePortugues :  datacenter.nomeEspanhol) }}</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <select ng-model="currentFilter.status" name="status" class="form-control" style="width: 100%;">
+                                <option value="">_[[Todos os  Status]]</option>
+                                <option value="1">_[[Ativo]]</option>
+                                <option value="0">_[[Inativo]]</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <!--<select ng-model="currentFilter.tipoEquipamento"
+                                    class="form-control"
+                                    ng-options="equipamento.nomePortugues for equipamento in equipamentoList"
+                                    name="equipamento"
+                                    style="width: 100%;">
+                                <option value="">_[[Todos os  Equipamentos]]</option>
+                            </select>-->
+                            <select ng-model="currentFilter.tipoEquipamento"
+                                    name="equipamento"
+                                    class="form-control" style="width: 100%; min-width: 203px;">
+                                <option value="">_[[Todos os  Equipamentos]]</option>
+                                <option ng-selected="currentFilter.tipoEquipamento.id == equipamento.id" ng-repeat="equipamento in equipamentoList track by $index" value="{{ $index }}">{{ currentLang == '.br' ? (equipamento.nomePortugues == '' ? equipamento.nomeEspanhol : equipamento.nomePortugues) : (equipamento.nomeEspanhol == '' ? equipamento.nomePortugues :  equipamento.nomeEspanhol) }}</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <button class="btn btn-primary" style="width: 100%;" ng-click="listEquipamentosByFilters()">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div ng-show="!gridHasResponse">
+                <img src="resource/core?file=images/loader.gif">
+            </div>
+
+            <div ng-if="gridHasResponse">
+                <div resize-grid-columns="gridColumns"
+                     resize-grid-columns-set="gridColumnsSet"></div>
+                <div ng-grid="gridOptions" style="height: 335px; border: 1px solid rgb(212,212,212);"></div>
+                <div class="gridFooterDiv">
+                    <pagination style="text-align: center;"
+                                total-items="currentPage.page.total" rotate="false"
+                                items-per-page="currentPage.page.range"
+                                total-items="currentPage.page.total" ng-change="changeToPage()"
+                                ng-model="currentPage.page.page" boundary-links="true"
+                                previous-text="‹" next-text="›" first-text="«" last-text="»">
+                    </pagination>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

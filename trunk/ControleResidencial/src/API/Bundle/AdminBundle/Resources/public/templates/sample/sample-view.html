@@ -1,0 +1,18 @@
+
+<div ng-switch on="currentState">
+    <div ng-switch-when="tiro.listar"> 
+    	<div ng-include="'bundles/operadoresadmin/templates/sample/sample-list.html'"></div>
+	</div>
+    <div ng-switch-when="tiro.detalhe">
+    	<div ng-include="'bundles/operadoresadmin/templates/sample/sample-detail.html'"></div>
+    </div>
+    <div ng-switch-when="tiro.cooking">
+    	<div ng-include="'bundles/operadoresadmin/templates/sample/sample-form.html'"></div>
+    </div>
+    <div ng-switch-when="tiro.editar">
+    	<div ng-include="'bundles/operadoresadmin/templates/sample/sample-form.html'"></div>
+    </div>
+    <div ng-switch-default>
+    	<div ng-include="'bundles/operadoresadmin/templates/sample/sample-list.html'"></div>
+    </div>
+</div>

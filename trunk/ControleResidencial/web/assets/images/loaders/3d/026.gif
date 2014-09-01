@@ -1,0 +1,121 @@
+          var currPos = this._itemStart(this._currentPage);
+                    startSnap = currPos % (viewportSize + this._itemSpacing);
+                    containerStyle[(this._horizontal ? propertyName + "-x" : propertyName + "-y")] = "snapInterval(" + startSnap + "px, " + snapInterval + "px)";
+                },
+
+                _setListEnds: function () {
+                    if (this._currentPage.element) {
+                        var containerStyle = this._panningDivContainer.style,
+                            startScroll = 0,
+                            endScroll = 0,
+                            startNonEmptyPage = this._getTailOfBuffer(),
+                            endNonEmptyPage = this._getHeadOfBuffer(),
+                            startBoundaryStyle = "-ms-scroll-limit-" + (this._horizontal ? "x-min" : "y-min"),
+                            endBoundaryStyle = "-ms-scroll-limit-" + (this._horizontal ? "x-max" : "y-max");
+
+                        while (!endNonEmptyPage.element) {
+                            endNonEmptyPage = endNonEmptyPage.prev;
+
+                            // We started at the item before prevMarker (going backwards), so we will exit if all
+                            // the pages in the buffer are empty.
+                            if (endNonEmptyPage == this._prevMarker.prev) {
+                                break;
+                            }
+                        }
+
+                        while (!startNonEmptyPage.element) {
+                            startNonEmptyPage = startNonEmptyPage.next;
+
+                            // We started at prevMarker (going forward), so we will exit if all the pages in the
+                            // buffer are empty.
+                            if (startNonEmptyPage == this._prevMarker) {
+                                break;
+                            }
+                        }
+
+                        endScroll = this._itemStart(endNonEmptyPage);
+                        startScroll = this._itemStart(startNonEmptyPage);
+                        containerStyle[startBoundaryStyle] = startScroll + "px";
+                        containerStyle[endBoundaryStyle] = endScroll + "px";
+                    }
+                },
+
+                _viewportOnItemStart: function () {
+                    return this._itemStart(this._currentPage) === this._viewportStart();
+                },
+
+                _restoreAnimatedElement: function (oldPage, discardablePage) {
+                    var removed = true;
+                    // Restore the element in the old page only if it still matches the uniqueID, and the page
+                    // does not have new updated content. If the element was removed, it won't be restore in the
+                    // old page.
+                    if (oldPage.elementUniqueID === discardablePage.element.uniqueID && !oldPage.element) {
+                        oldPage.setElement(discardablePage.element, true);
+                        removed = false;
+                    } else {
+                        // Iterate through the pages to see if the element was moved
+                        this._forEachPage(function (curr) {
+                            if (curr.elementUniqueID === discardablePage.elementUniqueID && !curr.element) {
+                                curr.setElement(discardablePage.element, true);
+                                removed = false;
+                            }
+                        });
+                    }
+                    return removed;
+                },
+
+                _itemSettledOn: function () {
+                    if (this._lastTimeoutRequest) {
+                        this._lastTimeoutRequest.cancel();
+                        this._lastTimeoutRequest = null;
+                    }
+
+                    var that = this;
+                    // Need to yield to the host here
+                    setImmediate(function () {
+                        if (that._viewportOnItemStart()) {
+                            that._blockTabs = false;
+                            if (that._currentPage.element) {
+                                if (that._hasFocus) {
+                                    try {
+                                        that._currentPage.element.setActive();
+                                        that._tabManager.childFocus = that._currentPage.element;
+                                    } catch (e) { }
+                                }
+                                if (that._lastSelectedElement !== that._currentPage.element) {
+                                    if (that._lastSelectedPage && that._lastSelectedPage.element && !isFlipper(that._lastSelectedPage.element)) {
+                                        that._lastSelectedPage.element.setAttribute("aria-selected", false);
+                                    }
+                                    that._lastSelectedPage = that._currentPage;
+                                    that._lastSelectedElement = that._currentPage.element;
+                                    if (!isFlipper(that._currentPage.element)) {
+                                        that._currentPage.element.setAttribute("aria-selected", true);
+                                    }
+
+                                    // Need to schedule this:
+                                    // - to be able to register for the pageselected event after instantiating the control and still get the event
+                                    // - in case a FlipView navigation is triggered inside the pageselected listener (avoid reentering _itemSettledOn)
+                                    Scheduler.schedule(function FlipView_dispatchPageSelectedEvent() {
+                                        if (that._currentPage.element) {
+                                            var event = document.createEvent("CustomEvent");
+                                            event.initCustomEvent(thisWinUI.FlipView.pageSelectedEvent, true, false, { source: that._flipperDiv });
+                                            that._writeProfilerMark("WinJS.UI.FlipView:pageSelectedEvent,info");
+                                            that._currentPage.element.dispatchEvent(event);
+
+                                            // Fire the pagecompleted event when the render completes if we are still looking  at the same element.
+                                            // Check that the current element is not null, since the app could've triggered a navigation inside the 
+                                            // pageselected event handler.
+                                            var originalElement = that._currentPage.element;
+                                            if (originalElement) {
+                                                var record = that._itemsManager._recordFromElement(originalElement, true);
+                                                if (record) {
+                                                    record.renderComplete.then(function () {
+                                                        if (originalElement === that._currentPage.element) {
+                                                            that._currentPage.element.setAttribute("aria-setsize", that._cachedSize);
+                                                            that._currentPage.element.setAttribute("aria-posinset", that.currentIndex() + 1);
+                                                            that._bufferAriaStartMarker.setAttribute("aria-flowto", that._currentPage.element.id);
+                                                            event = document.createEvent("CustomEvent");
+                                                            event.initCustomEvent(thisWinUI.FlipView.pageCompletedEvent, true, false, { source: that._flipperDiv });
+                                                            that._writeProfilerMark("WinJS.UI.FlipView:pageCompletedEvent,info");
+                                                            that._currentPage.element.dispatchEvent(event);
+           

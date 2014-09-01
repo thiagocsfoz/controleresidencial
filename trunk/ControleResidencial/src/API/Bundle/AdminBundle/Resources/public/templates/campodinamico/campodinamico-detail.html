@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<!-- DATA CENTER - Form -->
+<div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4>
+                _[[Detalhe do Data Center]]
+                <p class="pull-right">
+                  <button class="btn btn-danger" ng-show="currentEntity.id != null" ng-click="changeToRemove(currentEntity)">_[[Remover]]</button>
+                  <button class="btn btn-warning" ng-show="currentEntity.id != null" ng-click="editClick(currentEntity)">_[[Editar]]</button>
+                  <button class="btn btn-default " id="buttonCancel" ui-sref="campodinamico.listar">_[[Voltar]]</button>
+                </p>
+            </h4>
+        </div>
+        <div class="panel-body">
+            <ul class="nav nav-pills">
+              <li class="active"><a href="" ng-click="changeToDetailState(DETAIL_STATE_BR)">_[[Português]]</a></li>
+              <li><a href="" ng-click="changeToDetailState(DETAIL_STATE_ES)">_[[Espanhol]]</a></li>
+            </ul>
+            <div class="form-group position-relative">
+                <label for="nome">_[[Nome]]</label>
+                <input name="nome" type="text" disabled 
+                       ng-model="currentEntity.nomePortugues"
+                       placeholder="Nome" class="form-control"
+                       maxlength="255" ng-minlength="1">
+            </div>
+            <div class="form-group position-relative">
+                <label for="descricao">_[[Descrição]]</label>
+                <textarea  name="descricao" type="text" disabled
+                       ng-model="currentEntity.tipo" rows="3" 
+                       placeholder="Descrição" class="form-control"
+                       maxlength="255" ng-minlength="1"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

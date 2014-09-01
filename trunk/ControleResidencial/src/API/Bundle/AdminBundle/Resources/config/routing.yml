@@ -1,0 +1,6 @@
+#operadores_admin_homepage:
+#    pattern:  /
+#    defaults: { _controller: OperadoresAdminBundle:Navigation:index }
+#    requirements:
+#        _method:   GET
+

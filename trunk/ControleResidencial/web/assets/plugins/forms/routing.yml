@@ -1,0 +1,12 @@
+config:
+    resource: "@ConfigBundle/Resources/config/routing.yml"
+    prefix:   /
+
+api:
+    resource: "@ApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
+controle:
+    resource: "@ControleBundle/Resources/config/routing.yml"
+    prefix:   /
+

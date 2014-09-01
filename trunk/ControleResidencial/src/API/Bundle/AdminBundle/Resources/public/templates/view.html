@@ -1,0 +1,8 @@
+<div ng-switch on="currentState">
+    <div ng-switch-when="admin.listar">
+        <div ng-include="'../bundles/apiadmin/templates/list.html'"></div>
+    </div>
+    <div ng-switch-default>
+        <div ng-include="'../bundles/apiadmin/templates/list.html'"></div>
+    </div>
+</div>

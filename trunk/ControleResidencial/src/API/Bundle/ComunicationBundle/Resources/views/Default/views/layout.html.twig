@@ -1,0 +1,39 @@
+<?php
+
+/*
+ * This file is part of the Symfony package.
+ *
+ * (c) Fabien Potencier <fabien@symfony.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Symfony\Component\Routing\Annotation;
+
+/**
+ * Annotation class for @Route().
+ *
+ * @Annotation
+ * @Target({"CLASS", "METHOD"})
+ *
+ * @author Fabien Potencier <fabien@symfony.com>
+ */
+class Route
+{
+    private $path;
+    private $name;
+    private $requirements = array();
+    private $options = array();
+    private $defaults = array();
+    private $host;
+    private $methods = array();
+    private $schemes = array();
+    private $condition;
+
+    /**
+     * Constructor.
+     *
+     * @param array $data An array of key/value parameters.
+     *
+   

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<!-- Sample - Form -->
+<div>
+    <form novalidate name="form" default-button="{{ (currentState == INSERT_STATE) && 'buttonInsert' || 'buttonUpdate' }}">
+        <div class="content-tab">
+            <div style="padding-bottom: 5px; margin-bottom: 15px;">
+                <div class="form-item" style="padding-top: 7px;">
+                    <b style="font-size:14px;" ng-show="currentEntity.id == null">NOVO SAMPLE</b>
+                    <b style="font-size:14px;" ng-show="currentEntity.id != null">EDITAR SAMPLE</b>
+                </div>
+                <div style="text-align: right; float: right;">
+                    <!-- Botão salvar -->
+                    <button style="margin-right: 10px; width: 80px;" class="btn btn-success" ng-show="currentEntity.id == null"
+                            id="buttonInsert" ng-click="">Salvar
+                    </button>
+                    <!-- Botão Update -->
+                    <button style="margin-right: 10px; width: 80px;" class="btn btn-success" ng-show="currentEntity.id != null"
+                            id="buttonUpdate" ng-click="">Salvar
+                    </button>
+                    <!-- Botão cancelar -->
+                    <button style="margin-right: 20px;" class="btn"
+                            id="buttonCancel" ui-sref="tiro.listar">Voltar
+                    </button>
+
+                </div>
+                <div style="border-bottom: 1px solid #ededed; margin: 10px 20px 0px 20px"/>
+            </div>
+            <!--<div class="form-item position-relative" style="width: 500px;">
+                <label required>Nome</label>
+                <input name="nome" type="text"
+                       ng-model="currentEntity.nome"
+                       placeholder="Nome"
+                       required  maxlength="255" ng-minlength="1"
+                       ng-class="{ ngInvalid: form.nome.$error.required && (form.$submitted || form.nome.$dirty) }"
+                       autofocus
+                       ng-hover>
+
+                 <span ng-show="form.nome.$error.required && form.nome.$hovered"  class="tooltip-validation">Nome obrigatório</span>
+            </div>
+            <br>-->
+
+        </div>
+    </form>
+</div>
+</html>
