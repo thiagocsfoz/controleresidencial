@@ -1,6 +1,6 @@
 <?php
 
-namespace Operadores\Bundle\CoreBundle\Controller;
+namespace API\Bundle\CoreBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller,
     Symfony\Component\HttpFoundation\Response,

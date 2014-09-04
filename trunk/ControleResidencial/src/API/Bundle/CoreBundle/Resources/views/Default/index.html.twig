@@ -1,11 +1,32 @@
-on onBindingComplete() {
-FinanceAppJS.FinanceBasePage.prototype.onBindingComplete.call(this);
-var btnRemoveStock = document.getElementById("btnRemoveStk");
-var btnClearSelection = document.getElementById("btnClearSelection");
-// Set Button Labels Text
-utils.setWinLabelText(btnRemoveStock, "BTN_LABEL_REMOVE_FROM_WATCHLIST");
-utils.setWinLabelText(btnClearSelection, "MyStocksClearSelection");
-},
-onPageLoadComplete: function onPageLoadComplete() {
-FinanceAppJS.FinanceBasePage.prototype.onPageLoadComplete.call(this);
-// log a content view for the watchlist item just once and no more than onc
+{% extends '::base.html.twig' %}
+
+{% block header %}
+    {% include 'APICoreBundle:Default:header.html.twig' %}
+{% endblock %}
+
+{% block stylesheets %}
+    {% include 'APICoreBundle:Default:styles.html.twig' %}
+{% endblock %}
+
+{% block sidebar %}
+    {% include 'APICoreBundle:Default:sidebar.html.twig' %}
+{% endblock %}
+
+{% block content %}
+    <section>
+    <!-- START Page content-->
+    <section class="main-content">
+        {% include content~'index.html.twig' %}
+    </section>
+    <!-- END Page content-->
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+        {% include content~'scripts.html.twig' %}
+        {% include content~'index.html.twig' %}
+{% endblock %}
+
+{% block footer %}
+    {% include 'APICoreBundle:Default:footer.html.twig' %}
+{% endblock %}
