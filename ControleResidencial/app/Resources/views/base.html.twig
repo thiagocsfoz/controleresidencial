@@ -34,16 +34,17 @@
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
+<div ng-app="ControleApp">
+    <section class="wrapper">
+        {% block header %}{% endblock %}
 
-<section class="wrapper" ng-app="ControleResidencialApp">
-    {% block header %}{% endblock %}
+        {% block sidebar %}{% endblock %}
 
-    {% block sidebar %}{% endblock %}
+        {% block content %}{% endblock %}
 
-    {% block content %}{% endblock %}
-
-    {% block footer %}{% endblock %}
-</section>
+        {% block footer %}{% endblock %}
+    </section>
+</div>
 
 {% block javascripts %}{% endblock %}
 
