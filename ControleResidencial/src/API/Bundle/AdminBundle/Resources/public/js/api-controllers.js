@@ -6,8 +6,8 @@
  * @param $log
  * @param $location
  */
-function AdminController( $scope, $injector, $log, $state, ServiceFactory, $modal ) {
-	/**
+function AdminController( $scope, $injector, $log, $state, ServiceFactory, $modal, $timeout) {
+    /**
 	 * Injeta os métodos, atributos e seus estados herdados de AbstractController.
 	 * @see AbstractController
 	 */
@@ -61,11 +61,12 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
      * O botão de editar navega via URL (sref) por que a edição é feita em outra página,
      * já o botão de excluir chama um método direto via ng-click por que não tem um estado da tela específico.
      */
-    var GRID_ACTION_BUTTONS = '<div>' +
-                                '<a ng-click="editar(row.entity)" title="Editar" class="btn btn-mini"><span aria-hidden="true" class="icomoon-icon-pencil-2"></span></a>' +
-                                '<a ng-click="excluir(row.entity)" title="Excluir" class="btn btn-mini"><span aria-hidden="true" class="brocco-icon-trashcan"></span></a>' +
+    var GRID_ACTION_BUTTONS = '<div class="text-center">' +
+                                '<div class="btn-group">' +
+                                    '<a ng-click="editar(row.entity)" href="javascript:void(0);" style="margin-right: 20px"><i class="fa fa-pencil"></i></a>' +
+                                    '<a ng-click="excluir(row.entity)" href="javascript:void(0);" style="margin-right: 20px"><i class="fa fa-trash-o"></i></a>' +
+                                '</div' +
                               '</div>';
-
 
     /**
      * Configurações gerais da ng-grid. 
@@ -78,7 +79,7 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
         enableRowSelection: false,
 		columnDefs: [
             {displayName:'#', field:'id', width:'5%'},
-            {displayName:'Nome Residência', field:'nome', width:'25%'},
+            {displayName:'Nome Residencia', field:'nome', width:'25%'},
             {displayName:'Endereço Arduino', field:'ip', width:'24%'},
             {displayName:'Token', field:'token', width:'28%', cellTemplate: '<div class="ngCellText ng-scope" style="-moz-user-select: initial; -khtml-user-select: initial; -webkit-user-select: initial; -ms-user-select: initial; user-select: initial;"> {{row.entity.token}}</div>'},
             {displayName:'Ações', sortable:false, cellTemplate: GRID_ACTION_BUTTONS, width:'15%'}
@@ -189,7 +190,7 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
                 $scope.currentEntity = new Aplicacoes();
                 $scope.form("form").$submitted = false;
 
-                $scope.notify('success', 'Sucesso', 'Residência adicionada com sucesso!');
+                //$scope.notify('success', 'Sucesso', 'Residencia adicionada com sucesso!');
         },
         function(data){
             console.log(data);
@@ -206,7 +207,7 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
                 $scope.currentEntity = new Aplicacoes();
                 $scope.form("form").$submitted = false;
 
-                $scope.notify('success', 'Sucesso', 'Residência Salva com sucesso!');
+                $scope.notify('success', 'Sucesso', 'Residencia Salva com sucesso!');
 
             },
             function(data){
@@ -226,8 +227,8 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
             controller: DialogController,
             windowClass: 'dialog-delete',
             resolve: {
-                title: function(){return "Exclusão de Residência";},
-                message: function(){return '<b>Tem certeza que deseja excluir a residência "'+ aplicacao.nome +'"?</b> Esta operação não poderá mais ser desfeita.';},
+                title: function(){return "Exclusão de Residencia";},
+                message: function(){return '<b>Tem certeza que deseja excluir a residencia "'+ aplicacao.nome +'"?</b> Esta operação não poderá mais ser desfeita.';},
                 buttons: function(){return [ {label:'Excluir', css:'btn btn-danger'}, {label:'Cancelar', dismiss:true} ];}
             }
         });
@@ -242,7 +243,7 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
                     }
 
                     $scope.aplicacoes.pop(data);
-                    $scope.notify('success', 'Sucesso', 'Residência excluída com sucesso!');
+                    $scope.notify('success', 'Sucesso', 'Residencia excluída com sucesso!');
                 },
                 function(data){
                     console.log(data);

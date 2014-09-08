@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class FrontController extends Controller
+class FrontAppController extends Controller
 {
     /**
      * /broker URL
@@ -24,16 +24,16 @@ class FrontController extends Controller
         if ($dh = opendir($dir)) {
             while (($file = readdir($dh)) !== false) {
                 if(strpos($file, ".") === false)
-                    $voFolders[] = array(dirname(__FILE__) . '/../../'.$file.'/Entity/', 'App\\Bundle\\'.$file.'\\Entity');
+                    $voFolders[] = array(dirname(__FILE__) . '/../../'.$file.'/Entity/', 'API\\Bundle\\'.$file.'\\Entity');
             }
             closedir($dh);
         }
         $config->pluginsConfig["AmfphpVoConverter"] = array('voFolders' => $voFolders, 'enforceConversion' => true);
 
         //--Error
-        $voFolders[] = array(dirname(__FILE__) . '/../Entity/Error/', 'App\\Bundle\\CoreBundle\\Entity\\Error');
+        $voFolders[] = array(dirname(__FILE__) . '/../Entity/Error/', 'API\\Bundle\\CoreBundle\\Entity\\Error');
         //--Paging
-        $voFolders[] = array(dirname(__FILE__) . '/../Entity/Paging/', 'App\\Bundle\\CoreBundle\\Entity\\Paging');
+        $voFolders[] = array(dirname(__FILE__) . '/../Entity/Paging/', 'API\\Bundle\\CoreBundle\\Entity\\Paging');
 
 
         $config->pluginsConfig["AmfphpVoConverter"] = array('voFolders' => $voFolders);
@@ -42,7 +42,7 @@ class FrontController extends Controller
         foreach(glob(dirname(__FILE__) . '/../../*', GLOB_ONLYDIR) as $dir) {
             $bundle = explode("/", $dir);
             $bundle = $bundle[count($bundle)-1];
-            $config->serviceFolders[] = array($dir.'/Service/', 'App\\Bundle\\'.$bundle.'\\Service');
+            $config->serviceFolders[] = array($dir.'/Service/', 'API\\Bundle\\'.$bundle.'\\Service');
         }
 
         //$config->serviceFolders[] = array($dir.'CoreBundle/Service/', 'Operadores\\Bundle\\CoreBundle\\Service');

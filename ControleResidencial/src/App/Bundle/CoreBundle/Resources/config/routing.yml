@@ -1,0 +1,41 @@
+app_core_broker:
+    pattern:  /app/broker
+    defaults: { _controller: AppCoreBundle:Front:index }
+    requirements:
+       _method: POST
+
+project_app_render:
+    pattern:  /resource/{module}
+    defaults: { _controller: AppCoreBundle:Resources:getResource }
+    requirements:
+       _method: GET
+
+project_app_user_me:
+    pattern:  /resource/user/me
+    defaults: { _controller: AppCoreBundle:Resources:getUserMe }
+    requirements:
+       _method: GET
+
+project_app_download:
+   pattern:  /download/{file}
+   defaults: { _controller: AppCoreBundle:Resources:downloadFile }
+   requirements:
+      _method: GET
+
+api_pages:
+    pattern:  /
+    defaults: { _controller: AppCoreBundle:Navigation:index, module: admin}
+    requirements:
+       _method: GET
+
+login_app:
+    pattern: /system/login
+    defaults: { _controller: AppCoreBundle:Authentication:login }
+    requirements:
+          _method: GET
+
+login_check_app:
+    pattern: /system/login_check
+
+logout_app:
+    pattern: /system/logout

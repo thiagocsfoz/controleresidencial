@@ -15,7 +15,7 @@ angular.module("eits-grid",['ngGrid']).directive('ngGrid',function(){
                                     "<div class=\"ngCell\" style=\"width:100%;cursor: pointer;\">" +
                                         "<div ng-cell=\"\">" +
                                             "<div class=\"ngCellText\">" +
-                                                "<span ng-cell-text=\"\" class=\"ng-binding\">_[[Nenhum registro foi encontrado.]]</span>" +
+                                                "<span ng-cell-text=\"\" class=\"ng-binding\">Nenhum registro foi encontrado.</span>" +
                                             "</div>" +
                                         "</div>" +
                                     "</div>" +

@@ -8,23 +8,22 @@
     {% include 'APICoreBundle:Default:styles.html.twig' %}
 {% endblock %}
 
-{% block sidebar %}
-    {% include 'APICoreBundle:Default:sidebar.html.twig' %}
-{% endblock %}
-
 {% block content %}
+
+    {% include 'APICoreBundle:Default:sidebar.html.twig' %}
+
     <section>
-    <!-- START Page content-->
-    <section class="main-content">
-        {% include content~'index.html.twig' %}
-    </section>
-    <!-- END Page content-->
+        <!-- START Page content-->
+        <section class="main-content">
+            {% include content~'index.html.twig' %}
+        </section>
+        <!-- END Page content-->
     </section>
 {% endblock %}
 
 {% block javascripts %}
-        {% include content~'scripts.html.twig' %}
-        {% include content~'index.html.twig' %}
+    {% include 'APICoreBundle:Default:scripts.html.twig' %}
+    {% include content~'scripts.html.twig' %}
 {% endblock %}
 
 {% block footer %}

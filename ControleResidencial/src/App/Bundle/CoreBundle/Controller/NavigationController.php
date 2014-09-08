@@ -2,85 +2,18 @@
 
 namespace App\Bundle\CoreBundle\Controller;
 
+use API\Bundle\CoreBundle\Service\RenderModuleService;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 class NavigationController extends Controller
 {
-    public function indexAction(Request $request,$module)
+    public function indexAction($module)
     {
-        //TODO: Refazer de uma forma que quando o access for denied, ele redireciona para o /system/login e n�o para o login
-        if( $module == 'login' )
-        {
-            header("Location: system/login");
-            exit;
-        }
-
-        /** TEMPORÁRIO
-        /*if( $module != 'admin') {
-        header("Location: ".$_SERVER['REQUEST_URI']."/../admin");
-        exit;
-        }*/
-        $langs = $request->getLanguages();
-        if($langs[0] == "es" || $langs[0] == "es_419" || $langs[0] == "es_PY")
-            $request->setLocale("es_ES");
-        else
-            $request->setLocale("pt_BR");
-
-        $s = $this->get('security.context');
-
-        if($s->isGranted('ROLE_GIBSIPSRTADM') && $s->isGranted('ROLE_GIBSIPSRTGER')){
-            if($module == "checklist"){
-                header("Location: ".$_SERVER['REDIRECT_URL']."/../admin");
-                exit;
-            }
-        }else{
-            if($s->isGranted('ROLE_GIBSIPSRTADM') && $module != "admin"){
-                header("Location: ".$_SERVER['REDIRECT_URL']."/../admin");
-                exit;
-            }else if($s->isGranted('ROLE_GIBSIPSRTGER') && $module != "report"){
-                header("Location: ".$_SERVER['REDIRECT_URL']."/../report");
-                exit;
-            }else if($s->isGranted('ROLE_GIBSIPSRTOPR') && $module != "checklist"){
-                header("Location: ".$_SERVER['REDIRECT_URL']."/../");
-                exit;
-            }
-        }
-
-        /**
-         * Caso a rota não existir, chame o checklist!
-         */
-        if( !in_array($module, array('admin','checklist','report')) )
-        {
-            header("Location: ".$_SERVER['REDIRECT_URL']."/../");
-            exit;
-        }
-
-        $browser = $this->getBrowser();
         //TODO: Exception se n�o encontrar a p�gina!
-        return $this->get('render_module')->render('Operadores'.ucfirst($module).'Bundle:Default:', array( 'browser' => $browser['name'], 'lang' => substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2) ), $this->getUser());
 
-    }
+        $render = new RenderModuleService($this->container);
+        return $render->render('App'.ucfirst($module).'Bundle:Default:', array());
 
-    public function getBrowser()
-    {
-        $u_agent = $_SERVER['HTTP_USER_AGENT'];
-        $bname = 'Unknown';
-
-        // Next get the name of the useragent yes seperately and for good reason
-        if(preg_match('/MSIE/i',$u_agent) && !preg_match('/Opera/i',$u_agent))
-        {
-            $bname = 'ie';
-        }
-        elseif(preg_match('/rv:11.0/i',$u_agent) && !preg_match('/Opera/i',$u_agent))
-        {
-            $bname = 'ie';
-        }
-
-        // check if we have a number
-        return array(
-            'userAgent' => $u_agent,
-            'name'      => $bname,
-        );
     }
 }
