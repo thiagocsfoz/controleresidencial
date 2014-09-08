@@ -1,9 +1,9 @@
 <?php
-namespace Operadores\Bundle\CoreBundle\Entity\Paging;
+namespace App\Bundle\CoreBundle\Entity\Paging;
 
 /**
  * Class Page
- * @package Operadores\Bundle\CoreBundle\Entity\Paging
+ * @package App\Bundle\CoreBundle\Entity\Paging
  */
 class Page
 {

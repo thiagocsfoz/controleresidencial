@@ -1,22 +1,19 @@
 "use strict";
 
-
-var myapp = angular.module("ControleResidencialApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-resize', 'ui.router', 'eits-hover', 'eits-grid', 'eits-default-button', 'eits-alert', 'eits-sticky', 'ngSanitize', 'ui.date', 'eits-slick', 'localytics.directives','eits-numbers-only', 'eits-editable', 'ui.sortable','eits-timepickerPop'])
-
+var myapp = angular.module("ControleApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-resize', 'ui.router', 'eits-hover', 'eits-grid', 'eits-default-button', 'eits-alert', 'eits-sticky', 'ngSanitize', 'ui.date', 'eits-slick', 'localytics.directives','eits-numbers-only', 'eits-editable', 'ui.sortable','eits-timepickerPop','eits-trust-html'])
     .config( function( $stateProvider , $urlRouterProvider ) {
-
 
         $urlRouterProvider.otherwise("/");
 
-        //Datacenter Crud
+        //Admin
         $stateProvider.state('admin', {
-            url : "/",
-            templateUrl : "../bundles/apiadmin/templates/view.html",
+            url : "",
+            templateUrl : "../../bundles/apiadmin/templates/view.html",
             controller : AdminController
         })
-            .state('admin.list', {
-                url: "/"
-            });
+        .state('admin.listar', {
+            url: "/"
+        });
 
     }).constant('paginationConfig', {
         itemsPerPage: 10,
@@ -28,10 +25,4 @@ var myapp = angular.module("ControleResidencialApp", ['ui.bootstrap', 'ngGrid', 
         nextText: "<i class='icon-forward'></i>",
         lastText: "<i class='icon-fast-forward'></i>",
         rotate: true
-    }).constant('languages', {
-        pt_BR : 'pt-BR',
-        es_ES : 'es-ES',
-        es : 'es'
-    }).constant('uiDateConfig', {
-        yearRange: new Date().getFullYear() + ":" + (new Date().getFullYear() + 20 )
     });
