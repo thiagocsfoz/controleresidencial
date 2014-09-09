@@ -22,7 +22,7 @@ var myapp = angular.module("ControleApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-
             controller : IluminacaoController
         })
         .state('iluminacao.listar', {
-            url: "/list"
+            url: ""
         });
 
     }).constant('paginationConfig', {
@@ -41,4 +41,10 @@ var myapp = angular.module("ControleApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-
         es : 'es'
     }).constant('uiDateConfig', {
         yearRange: new Date().getFullYear() + ":" + (new Date().getFullYear() + 20 )
+    }).directive('repeatDone', function() {
+        return function(scope, element, attrs) {
+            if (scope.$last) {
+                scope.$eval(attrs.repeatDone);
+            }
+        }
     });

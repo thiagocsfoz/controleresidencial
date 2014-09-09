@@ -1,0 +1,28 @@
+<section class="main-content">
+    <h3>Iluminação
+        <br>
+        <small>Controle a iluminação da sua residencia.</small>
+    </h3>
+    <div class="row">
+        <div class="col-lg-6">
+            <!-- START panel-->
+            <div class="panel panel-default">
+                <div class="panel-heading">Controle Manual</div>
+                <div class="panel-body csspinner traditional" id="painel-iluminacao">
+                    <div class="form-group">
+                        <div class="col-lg-6" ng-repeat="iluminacao in iluminacaoList" repeat-done="removeLoading('#painel-iluminacao')">
+                            <label class="col-sm-6 control-label">{{ iluminacao.nome }}</label>
+                            <div class="col-sm-6">
+                                <label class="switch">
+                                    <input type="checkbox" ng-checked="iluminacao.status">
+                                    <span></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END panel-->
+        </div>
+    </div>
+</section>

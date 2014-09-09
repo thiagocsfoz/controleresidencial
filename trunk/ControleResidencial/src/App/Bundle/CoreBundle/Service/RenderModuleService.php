@@ -12,6 +12,6 @@ class RenderModuleService
     }
 
     public function render( $content, $parameters = array(),  $user = null, Response $response = null ) {
-        return $this->container->get('templating')->renderResponse('OperadoresCoreBundle:Default:index.html.twig', array('content'=> $content, 'parameters'=> $parameters, 'user' => $user), $response);
+        return $this->container->get('templating')->renderResponse('AppCoreBundle:Default:index.html.twig', array('content'=> $content, 'parameters'=> $parameters), $response);
     }
 }

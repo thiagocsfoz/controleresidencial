@@ -8,7 +8,7 @@ var myapp = angular.module("ControleApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-
         //Admin
         $stateProvider.state('admin', {
             url : "",
-            templateUrl : "../../bundles/apiadmin/templates/view.html",
+            templateUrl : "../bundles/apiadmin/templates/view.html",
             controller : AdminController
         })
         .state('admin.listar', {

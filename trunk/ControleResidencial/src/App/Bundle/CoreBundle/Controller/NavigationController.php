@@ -2,7 +2,7 @@
 
 namespace App\Bundle\CoreBundle\Controller;
 
-use API\Bundle\CoreBundle\Service\RenderModuleService;
+use App\Bundle\CoreBundle\Service\RenderModuleService;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
