@@ -22,9 +22,9 @@ project_app_download:
    requirements:
       _method: GET
 
-api_pages:
+app_pages:
     pattern:  /
-    defaults: { _controller: AppCoreBundle:Navigation:index, module: admin}
+    defaults: { _controller: AppCoreBundle:Navigation:index, module: controle}
     requirements:
        _method: GET
 

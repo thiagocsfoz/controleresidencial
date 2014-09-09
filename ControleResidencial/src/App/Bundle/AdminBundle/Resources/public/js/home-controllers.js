@@ -6,8 +6,8 @@
  * @param $log
  * @param $location
  */
-function DashboardController( $scope, $injector, $log, $state ) {
-	/**
+function AdminController( $scope, $injector, $log, $state, ServiceFactory, $modal, $timeout) {
+    /**
 	 * Injeta os métodos, atributos e seus estados herdados de AbstractController.
 	 * @see AbstractController
 	 */
@@ -16,19 +16,17 @@ function DashboardController( $scope, $injector, $log, $state ) {
 	/*-------------------------------------------------------------------
 	 * 		 				 	ATTRIBUTES
 	 *-------------------------------------------------------------------*/
-    $("#dashboard").addClass('active');
 
-    $("#iluminacao").removeClass('active');
 
     //Service.call();
-
+    $scope.ServiceFactory = ServiceFactory;
 
     //STATES
     /**
      * Variável estática que representa 
      * o estado de listagem de registros.
      */
-    $scope.LIST_STATE = "dashboard.listar";
+    $scope.LIST_STATE = "admin.listar";
     /**
      * Variável estática que representa
      * o estado de detalhe de um registro.
@@ -54,7 +52,8 @@ function DashboardController( $scope, $injector, $log, $state ) {
 		/**
 	 * Armazena a entitidade corrente para edição ou detalhe.
 	 */
-     $scope.currentEntity;
+    $scope.currentEntity;
+
 
     //DATA GRID
     /**
@@ -62,27 +61,29 @@ function DashboardController( $scope, $injector, $log, $state ) {
      * O botão de editar navega via URL (sref) por que a edição é feita em outra página,
      * já o botão de excluir chama um método direto via ng-click por que não tem um estado da tela específico.
      */
-    var GRID_ACTION_BUTTONS = '<div class="cell-centered">' +
-    								//'<a ng-if="checkProjetoPermission(\'matriz_interessado.update\')" ui-sref="matriz-interessado.editar({id:row.entity.id})" title="Editar" class="btn btn-mini"><i class="icon-pencil"></i></a>'+
-    								//'<a ng-if="checkProjetoPermission(\'matriz_interessado.remove\')" ng-click="changeToRemove(row.entity)" title="Excluir" class="btn btn-mini"><i class="icon-trash"></i></a>'+
-    						   '</div>';
+    var GRID_ACTION_BUTTONS = '<div class="text-center">' +
+                                '<div class="btn-group">' +
+                                    '<a ng-click="editar(row.entity)" href="javascript:void(0);" style="margin-right: 20px"><i class="fa fa-pencil"></i></a>' +
+                                    '<a ng-click="excluir(row.entity)" href="javascript:void(0);" style="margin-right: 20px"><i class="fa fa-trash-o"></i></a>' +
+                                '</div' +
+                              '</div>';
+
     /**
      * Configurações gerais da ng-grid. 
      * @see https://github.com/angular-ui/ng-grid/wiki/Configuration-Options
      */
     $scope.gridOptions = { 
-		data: 'currentPage.content',
+		data: 'aplicacoes',
 		multiSelect: false,
-		useExternalSorting: true,
-		beforeSelectionChange: function (row, event) {
-			//evita chamar a selecao, quando clicado em um action button.
-			if ( $(event.target).is("a") || $(event.target).is("i") ) return false;
-			$state.go($scope.DETAIL_STATE, {id:row.entity.id});
-		},
+        enableSorting: false,
+        enableRowSelection: false,
 		columnDefs: [
-		              	{displayName:'Nome', field:'nome', width:'15%'},
-		             	{displayName:'Ações', sortable:false, cellTemplate: GRID_ACTION_BUTTONS, width:'70px'}
-		            ]
+            {displayName:'#', field:'id', width:'5%'},
+            {displayName:'Nome Residencia', field:'nome', width:'25%'},
+            {displayName:'Endereço Arduino', field:'ip', width:'24%'},
+            {displayName:'Token', field:'token', width:'28%', cellTemplate: '<div class="ngCellText ng-scope" style="-moz-user-select: initial; -khtml-user-select: initial; -webkit-user-select: initial; -ms-user-select: initial; user-select: initial;"> {{row.entity.token}}</div>'},
+            {displayName:'Ações', sortable:false, cellTemplate: GRID_ACTION_BUTTONS, width:'15%'}
+        ]
     };
     
     /**
@@ -92,7 +93,7 @@ function DashboardController( $scope, $injector, $log, $state ) {
      * 
      * @type PageRequest
      */
-    $scope.currentPage;
+    $scope.aplicacoes;
     /*-------------------------------------------------------------------
 	 * 		 				 	  NAVIGATIONS
 	 *-------------------------------------------------------------------*/
@@ -122,18 +123,6 @@ function DashboardController( $scope, $injector, $log, $state ) {
 				$scope.changeToList();
 			}
 			break;
-			case $scope.DETAIL_STATE: {
-				$scope.changeToDetail( $state.params.id );
-			}
-			break;
-			case $scope.INSERT_STATE: {
-				$scope.changeToInsert();
-			}
-			break;
-			case $scope.UPDATE_STATE: {
-				$scope.changeToUpdate( $state.params.id );
-			}
-			break;
 			default : {
 				$state.go( $scope.LIST_STATE );
 			}
@@ -156,7 +145,6 @@ function DashboardController( $scope, $injector, $log, $state ) {
 
         $scope.currentState = $scope.LIST_STATE;
         $scope.pageRequest = pageRequest;
-    	
     };
     
     /**
@@ -176,6 +164,83 @@ function DashboardController( $scope, $injector, $log, $state ) {
 
  	   $scope.currentState = $scope.INSERT_STATE;
     };
+
+    $scope.generateToken = function(){
+        var now = 0+$.now();
+        now *= Math.random();
+        $scope.currentEntity.token = now.toString(30).substr(2);
+    }
+
+    $scope.insertResidencia = function() {
+        if(!$scope.form("form").$valid ){
+            return false;
+        }
+
+        $scope.ServiceFactory.call("AplicacoesService", "insert", $scope.currentEntity, function(data){
+                $scope.aplicacoes.push(data);
+                $scope.currentEntity = new Aplicacoes();
+                $scope.form("form").$submitted = false;
+
+                //$scope.notify('success', 'Sucesso', 'Residencia adicionada com sucesso!');
+        },
+        function(data){
+            console.log(data);
+        })
+    }
+
+    $scope.saveResidencia = function() {
+        if(!$scope.form("form").$valid ){
+            return false;
+        }
+
+        $scope.currentEntity._explicitType = "Aplicacoes";
+        $scope.ServiceFactory.call("AplicacoesService", "update", $scope.currentEntity, function(data){
+                $scope.currentEntity = new Aplicacoes();
+                $scope.form("form").$submitted = false;
+
+                $scope.notify('success', 'Sucesso', 'Residencia Salva com sucesso!');
+
+            },
+            function(data){
+                $scope.notify('error', 'Não foi possível salvar a residência', data.error);
+            })
+    }
+
+    $scope.editar = function(aplicacao) {
+        $scope.currentEntity = aplicacao;
+    }
+
+
+    $scope.excluir = function(aplicacao) {
+
+        var dialog = $modal.open( {
+            templateUrl: "../../bundles/apicore/lib/eits-directives/dialog/dialog-template.html",
+            controller: DialogController,
+            windowClass: 'dialog-delete',
+            resolve: {
+                title: function(){return "Exclusão de Residencia";},
+                message: function(){return '<b>Tem certeza que deseja excluir a residencia "'+ aplicacao.nome +'"?</b> Esta operação não poderá mais ser desfeita.';},
+                buttons: function(){return [ {label:'Excluir', css:'btn btn-danger'}, {label:'Cancelar', dismiss:true} ];}
+            }
+        });
+
+        dialog.result.then( function(result) {
+            aplicacao._explicitType = "Aplicacoes";
+            $scope.ServiceFactory.call("AplicacoesService", "remove", aplicacao, function(data){
+
+                    if(data === false){
+                        $scope.notify('error', 'Erro', 'Não foi possível excluir o registro.');
+                        return false;
+                    }
+
+                    $scope.aplicacoes.pop(data);
+                    $scope.notify('success', 'Sucesso', 'Residencia excluída com sucesso!');
+                },
+                function(data){
+                    console.log(data);
+                });
+        });
+    }
     
     /**
      * Realiza os procedimentos iniciais (prepara o estado) 
@@ -254,8 +319,13 @@ function DashboardController( $scope, $injector, $log, $state ) {
      * @see data.filter
      * @see currentPage
      */
-    $scope.listSamplesByFilters = function( filter, pageRequest ) {
-	   
+    $scope.listByFilters = function() {
+        $scope.ServiceFactory.call("ApiService", "listAll", null, function(data){
+            $scope.currentPage = data;
+        },
+        function(data){
+            console.log(data);
+        })
     };
 
     /**
