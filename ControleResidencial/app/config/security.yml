@@ -1,0 +1,61 @@
+security:
+    encoders:
+        Symfony\Component\Security\Core\User\User: plaintext
+
+    access_control:
+        - { path: ^/system/login,          roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api/system/login,      roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api,                   roles:  ROLE_API }
+        - { path: ^/$,                     roles:  ROLE_USER }
+
+    providers:
+        in_memory:
+            memory:
+                users:
+                    admin: { password: admin, roles: 'ROLE_API' }
+        user_db:
+            entity: { class: App\Bundle\CoreBundle\Entity\User, property: username }
+
+    firewalls:
+        dev:
+              pattern:  ^/(_(profiler|wdt)|css|images|js)/
+              security: false
+        restricted_area_api:
+              pattern:          ^/api
+              anonymous:        ~
+              provider:         in_memory
+              # alternative configuration
+              # imag_ldap:
+              #   login_path:   /ninja/login
+              form_login:
+                login_path: /api/system/login
+                check_path: /api/system/login_check
+                always_use_default_target_path: true
+                default_target_path: /api
+                failure_forward: false
+                failure_path: null
+              logout:
+                path:           /api/system/logout
+                target:         /api
+        #dev:
+        #    pattern:  ^/(_(profiler|wdt)|css|images|js)/
+        #    security: false
+
+        #login:
+        #    pattern:  ^/demo/secured/login$
+        #    security: false
+
+        #secured_area:
+        #    pattern:    ^/demo/secured/
+        #    form_login:
+        #        check_path: _security_check
+        #        login_path: _demo_login
+        #    logout:
+        #        path:   _demo_logout
+        #        target: _demo
+        #    anonymous: ~
+        #    http_basic:
+        #        realm: "Secured Demo Area"
+
+    #access_control:
+        #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }

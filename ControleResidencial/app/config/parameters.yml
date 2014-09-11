@@ -1,0 +1,20 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver_app: pdo_pgsql
+    database_host_app: localhost
+    database_port_app: null
+    database_name_app: ControleResidencialApp
+    database_user_app: postgres
+    database_password_app: 's5b8v4'
+    database_driver_api: pdo_pgsql
+    database_host_api: localhost
+    database_port_api: null
+    database_name_api: ControleResidencialAPI
+    database_user_api: postgres
+    database_password_api: 's5b8v4'
+    mailer_transport: smtp
+    mailer_host: expressodev
+    mailer_user: user1
+    mailer_password: 'prognus'
+    locale: en
+    secret: ThisTokenIsNotSoSecretChangeIt
