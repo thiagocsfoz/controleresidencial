@@ -1,0 +1,165 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+
+sensio_framework_extra:
+    request:
+        converters: true
+
+framework:
+    #esi:             ~
+    #translator:      { fallback: %locale% }
+    translator:      { fallback: %locale% }
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+        strict_requirements: ~
+    form:            ~
+    csrf_protection: ~
+    validation:      { enable_annotations: true }
+    templating:
+        engines: ['twig','php']
+        #assets_version: SomeVersionScheme
+    default_locale:  %locale%
+    trusted_hosts:   ~
+    trusted_proxies: ~
+    session:
+        # handler_id set to null will use default session handler from php.ini
+        handler_id:  ~
+    fragments:       ~
+    http_method_override: true
+    serializer:
+        enabled: true
+
+# Twig Configuration
+twig:
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
+
+# Assetic Configuration
+assetic:
+    debug:          "%kernel.debug%"
+    use_controller: false
+    bundles:        [ ]
+    #java: /usr/bin/java
+    filters:
+        cssrewrite: ~
+        #closure:
+        #    jar: "%kernel.root_dir%/Resources/java/compiler.jar"
+        #yui_css:
+        #    jar: "%kernel.root_dir%/Resources/java/yuicompressor-2.4.7.jar"
+
+# Doctrine Configuration
+#doctrine:
+#    dbal:
+#      connections:
+#          web:
+#              driver:   "%database_driver%"
+#              host:     "%database_host%"
+#              port:     "%database_port%"
+#              dbname:   "%database_name%"
+#              user:     "%database_user%"
+#              password: "%database_password%"
+#              charset:  UTF8
+              # if using pdo_sqlite as your database driver, add the path in parameters.yml
+              # e.g. database_path: "%kernel.root_dir%/data/data.db3"
+              # path:     "%database_path%"
+#          external:
+#              driver:   %database_driver_external%
+#              host:     %databsae_host_external%
+#              port:     %database_port_external%
+#              dbname:   "%database_name_external%"
+#              user:     "%database_user_external%"
+#              password: "%database_password_external%"
+#              charset:  UTF8
+#    orm:
+#      auto_generate_proxy_classes: %kernel.debug%
+#      entity_managers:
+#          external:
+#            auto_mapping: false
+#            mappings:
+#              OperadoresAdminBundle : ~
+
+
+doctrine:
+    dbal:
+        default_connection: app
+        connections:
+            app:
+                driver:   "%database_driver_app%"
+                host:     "%database_host_app%"
+                port:     "%database_port_app%"
+                dbname:   "%database_name_app%"
+                user:     "%database_user_app%"
+                password: "%database_password_app%"
+                charset:  UTF8
+            api:
+                driver:   "%database_driver_api%"
+                host:     "%database_host_api%"
+                port:     "%database_port_api%"
+                dbname:   "%database_name_api%"
+                user:     "%database_user_api%"
+                password: "%database_password_api%"
+                charset:  UTF8
+
+        # if using pdo_sqlite as your database driver, add the path in parameters.yml
+        # e.g. database_path: "%kernel.root_dir%/data/data.db3"
+        # path:     "%database_path%"
+
+    orm:
+      default_entity_manager: app
+      entity_managers:
+          app:
+              connection: app
+              mappings:
+                  AppCoreBundle:  ~
+                  AppControleBundle: ~
+                  AppAdminBundle: ~
+          api:
+              connection: api
+              mappings:
+                  APICoreBundle: ~
+                  APIAdminBundle: ~
+                  #APIComunactionBundle: ~
+
+# Swiftmailer Configuration
+swiftmailer:
+    transport: "%mailer_transport%"
+    host:      "%mailer_host%"
+    username:  "%mailer_user%"
+    password:  "%mailer_password%"
+    spool:     { type: memory }
+
+#fr3d_ldap:
+#    driver:
+#        host:         expressodev
+#       port:         389    # Optional
+#       version:        3    # Optional
+#        username:     cn=admin,dc=prognus    # Optional
+#        password:     prognus    # Optional
+#       optReferrals: false  # Optional
+#       useSsl:       true   # Enable SSL negotiation. Optional
+#       useStartTls:  true   # Enable TLS negotiation. Optional
+#    user:
+#        baseDn: cn=Admin,dc=itaipu
+#        filter: (&(ObjectClass=Person))
+#        attributes:          # Specify ldap attributes mapping [ldap attribute, user object method]
+#            - { ldap_attr: uid,  user_method: setUsername } # Default
+#            - { ldap_attr: cn,   user_method: setName }     # Optional
+#           - { ldap_attr: ...,  user_method: ... }         # Optional
+#   service:
+#       user_manager: fos_user.user_manager          # Overrides default user manager
+#       ldap_manager: fr3d_ldap.ldap_manager.default # Overrides default ldap manager
+
+services:
+    serializer.method:
+        class: Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer
+        tags:
+         - { name: serializer.normalizer }
+    serializer.encoder.json:
+        class: Symfony\Component\Serializer\Encoder\JsonEncoder
+    serializer:
+        class: Symfony\Component\Serializer\Serializer
+        arguments:
+            - [@serializer.method]
+            - {json: @serializer.encoder.json }

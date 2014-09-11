@@ -1,0 +1,16 @@
+
+#operadores_admin:
+#    resource: "@OperadoresAdminBundle/Resources/config/routing.yml"
+#    prefix:   /admin
+
+#operadores_checklist:
+#    resource: "@OperadoresChecklistBundle/Resources/config/routing.yml"
+#    prefix:   /
+
+api_core:
+    resource: "@APICoreBundle/Resources/config/routing.yml"
+    prefix:   /api
+
+app_core:
+    resource: "@AppCoreBundle/Resources/config/routing.yml"
+    prefix:   /
