@@ -6,7 +6,7 @@
  * @param $log
  * @param $location
  */
-function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory ) {
+function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, $rootScope ) {
 	/**
 	 * Injeta os métodos, atributos e seus estados herdados de AbstractController.
 	 * @see AbstractController
@@ -158,13 +158,35 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory )
         $scope.pageRequest = pageRequest;
 
         $scope.ServiceFactory.call("IluminacaoService", "listAll", null, function(data){
-                $scope.iluminacaoList = data;
+                $rootScope.iluminacaoList = data;
+            },
+            function(data){
+                console.log(data);
+            })
+
+        $scope.ServiceFactory.call("PerfilIluminacaoService", "listAll", null, function(data){
+                $rootScope.perfilIluminacaoList = data;
             },
             function(data){
                 console.log(data);
             })
     	
     };
+
+    $scope.changeIluminacao = function(iluminacao) {
+        var objIluminacao = new Iluminacao();
+
+        objIluminacao.id     = iluminacao.id;
+        objIluminacao.nome   = iluminacao.nome;
+        objIluminacao.porta  = iluminacao.porta;
+        objIluminacao.status = !iluminacao.status;
+        $scope.ServiceFactory.call("IluminacaoService", "acender", objIluminacao, function(data){
+            iluminacao.status = !iluminacao.status;
+        },
+        function(data){
+            console.log(data);
+        })
+    }
     
     /**
      * Realiza os procedimentos iniciais (prepara o estado) 

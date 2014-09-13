@@ -5,23 +5,31 @@ use App\Bundle\CoreBundle\Service\AbstractService;
 use App\Bundle\ControleBundle\Entity\Iluminacao;
 
 
-
 class IluminacaoService extends AbstractService
 {
-    public function insert( Aplicacoes $aplicacoes)
+    public function insert( Iluminacao $aplicacoes)
     {
         $aplicacoes = $this->get('doctrine')->getRepository('APIAdminBundle:Aplicacoes', 'api')->insert( $aplicacoes );
 
         return $aplicacoes;
     }
 
-    public function update( Aplicacoes $aplicacoes )
-    {
-        $aplicacoes =  $this->get('doctrine')->getRepository('APIAdminBundle:Aplicacoes', 'api')->update( $aplicacoes );
-        return $aplicacoes;
+    public function acender(Iluminacao $iluminacao){
+        $parameters = new \StdClass();
+        $parameters->porta = $iluminacao->porta;
+
+        $iluminacao =  $this->get('doctrine')->getRepository('AppControleBundle:Iluminacao', 'app')->update( $iluminacao );
+        $this->requestAPI('IluminacaoService', 'acender', [$parameters]);
+        return $iluminacao;
     }
 
-    public function remove( Aplicacoes $aplicacoes )
+    public function update( Iluminacao $iluminacao)
+    {
+        $iluminacao =  $this->get('doctrine')->getRepository('AppControleBundle:Iluminacao', 'app')->update( $iluminacao );
+        return $iluminacao;
+    }
+
+    public function remove( Iluminacao $aplicacoes )
     {
         try{
             $this->get('doctrine')->getRepository('APIAdminBundle:Aplicacoes', 'api')->remove( $aplicacoes->id );
@@ -38,5 +46,4 @@ class IluminacaoService extends AbstractService
         $result =  $this->get('doctrine')->getRepository('AppControleBundle:Iluminacao', 'app')->listAll();
         return $result;
     }
-
 }

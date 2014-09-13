@@ -1,9 +1,14 @@
 security:
     encoders:
         Symfony\Component\Security\Core\User\User: plaintext
+        App\Bundle\CoreBundle\Entity\User:
+              algorithm: md5
+              encode_as_base64: false
+              iterations: 0
 
     access_control:
         - { path: ^/system/login,          roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api/app/arduino,          roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/system/login,      roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api,                   roles:  ROLE_API }
         - { path: ^/$,                     roles:  ROLE_USER }
@@ -37,6 +42,23 @@ security:
               logout:
                 path:           /api/system/logout
                 target:         /api
+        restricted_area_app:
+              pattern:          ^/
+              anonymous:        ~
+              provider:         user_db
+              # alternative configuration
+              # imag_ldap:
+              #   login_path:   /ninja/login
+              form_login:
+                login_path: /system/login
+                check_path: /system/login_check
+                always_use_default_target_path: true
+                default_target_path: /
+                failure_forward: false
+                failure_path: null
+              logout:
+                path:           /system/logout
+                target:         /
         #dev:
         #    pattern:  ^/(_(profiler|wdt)|css|images|js)/
         #    security: false

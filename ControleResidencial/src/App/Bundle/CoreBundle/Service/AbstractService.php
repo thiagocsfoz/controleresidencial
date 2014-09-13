@@ -1,7 +1,9 @@
 <?php
 namespace App\Bundle\CoreBundle\Service;
 
+use App\Bundle\CoreBundle\Entity\ApiRequest;
 use Doctrine\ORM\EntityManager;
+use Guzzle\Http\Client;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 abstract class AbstractService extends Controller
@@ -96,6 +98,23 @@ abstract class AbstractService extends Controller
     public function get($id)
     {
         return $this->container->get($id);
+    }
+
+    public function requestAPI($serviceName, $methodName, $parameters) {
+
+        $apiRequest = new ApiRequest();
+
+        $apiRequest->serviceName = $serviceName;
+        $apiRequest->methodName  = $methodName;
+        $apiRequest->parameters  = $parameters;
+
+        $url = 'http://localhost/controleresidencial/ControleResidencial/web/';
+        $header = ['content-type' => "application/json"];
+        $client   = new Client($url);
+        $request  = $client->post('api/app/arduino/1/01ch8hi7.053a65', $header, json_encode($apiRequest));
+        $request->setHeader('content-type', 'application/json');
+
+        return $request->send();
     }
 }
 

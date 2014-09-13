@@ -177,7 +177,7 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
     $scope.generateToken = function(){
         var now = 0+$.now();
         now *= Math.random();
-        $scope.currentEntity.token = now.toString(30).substr(2);
+        $scope.currentEntity.token = now.toString(20).substr(2);
     }
 
     $scope.insertResidencia = function() {

@@ -95,7 +95,8 @@ abstract class AbstractRepository extends EntityRepository implements IRepositor
 
         $query = $statement
             ->select( 'obj' )
-            ->from($this->getClassName(), 'obj');
+            ->from($this->getClassName(), 'obj')
+            ->orderBy('obj.id', 'asc');
 
         return $query->getQuery()->getArrayResult();
     }
