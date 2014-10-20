@@ -17,8 +17,12 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
 	 * 		 				 	ATTRIBUTES
 	 *-------------------------------------------------------------------*/
     $("#iluminacao").addClass('active');
-
     $("#dashboard").removeClass('active');
+
+    $scope.$on('controleIluminacao', function (event, data) {
+        $scope.iluminacaoList = data;
+        $scope.$apply();
+    });
 
     //Service.call();
     $scope.ServiceFactory = ServiceFactory;
@@ -28,17 +32,17 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
      * Variável estática que representa 
      * o estado de listagem de registros.
      */
-    $scope.LIST_STATE = "iluminacao.listar";
+    $scope.CONTROLE_STATE = "iluminacao.controle";
     /**
      * Variável estática que representa
      * o estado de detalhe de um registro.
      */
-    $scope.DETAIL_STATE = "tiro.detalhe";
+    $scope.PERFIS_STATE = "iluminacao.perfis";
 	/**
 	 * Variável estática que representa
      * o estado para a criação de registros.
      */
-    $scope.INSERT_STATE = "tiro.cooking";
+    $scope.ROTINAS_STATE = "iluminacao.rotinas";
 	/**
 	 * Variável estática que representa
      * o estado para a edição de registros.
@@ -84,6 +88,22 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
 		             	{displayName:'Ações', sortable:false, cellTemplate: GRID_ACTION_BUTTONS, width:'70px'}
 		            ]
     };
+
+    $scope.gridPerfisOptions = {
+        data: 'perfilIluminacaoList',
+        multiSelect: false,
+        useExternalSorting: true,
+        beforeSelectionChange: function (row, event) {
+            //evita chamar a selecao, quando clicado em um action button.
+            if ( $(event.target).is("a") || $(event.target).is("i") ) return false;
+            $state.go($scope.DETAIL_STATE, {id:row.entity.id});
+        },
+        columnDefs: [
+            {displayName:'Nome', field:'nome', width:'45%'},
+            {displayName:'Lampadas', field:'lampadas', width:'50%'},
+            {displayName:'Ações', sortable:false, cellTemplate: GRID_ACTION_BUTTONS, width:'70px'}
+        ]
+    };
     
     /**
      * Variável que armazena o estado da paginação 
@@ -118,16 +138,16 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
         }
 
     	switch (state) {
-			case $scope.LIST_STATE: {
-				$scope.changeToList();
+			case $scope.CONTROLE_STATE: {
+				$scope.changeToControle();
 			}
 			break;
-			case $scope.DETAIL_STATE: {
-				$scope.changeToDetail( $state.params.id );
+			case $scope.PERFIS_STATE: {
+				$scope.changeToPerfis();
 			}
 			break;
-			case $scope.INSERT_STATE: {
-				$scope.changeToInsert();
+			case $scope.ROTINAS_STATE: {
+				$scope.changeToRotinas();
 			}
 			break;
 			case $scope.UPDATE_STATE: {
@@ -148,30 +168,48 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
      * 
      * Para mudar para este estado, deve-se primeiro carregar os dados da consulta.
      */
-    $scope.changeToList = function() {
+    $scope.changeToControle = function() {
     	$log.info("changeToList");
 
     	var pageRequest = {};
     	pageRequest.size = 10;
 
-        $scope.currentState = $scope.LIST_STATE;
+        $scope.currentState = $scope.CONTROLE_STATE;
         $scope.pageRequest = pageRequest;
+        $("#iluminacao-controle").addClass('active');
+        $("#iluminacao-perfis").removeClass('active');
+        $("#iluminacao-rotinas").removeClass('active');
 
         $scope.ServiceFactory.call("IluminacaoService", "listAll", null, function(data){
-                $rootScope.iluminacaoList = data;
+                $scope.iluminacaoList = data;
             },
             function(data){
                 console.log(data);
             })
+    };
+
+    $scope.changeToPerfis = function(){
+        $scope.currentState = $scope.PERFIS_STATE;
+
+        $("#iluminacao-perfis").addClass('active');
+        $("#iluminacao-controle").removeClass('active');
+        $("#iluminacao-rotinas").removeClass('active');
 
         $scope.ServiceFactory.call("PerfilIluminacaoService", "listAll", null, function(data){
-                $rootScope.perfilIluminacaoList = data;
-            },
-            function(data){
-                console.log(data);
-            })
-    	
-    };
+            $scope.perfilIluminacaoList = data;
+        },
+        function(data){
+            console.log(data);
+        })
+    }
+
+    $scope.changeToRotinas = function(){
+        $scope.currentState = $scope.ROTINAS_STATE;
+
+        $("#iluminacao-rotinas").addClass('active');
+        $("#iluminacao-controle").removeClass('active');
+        $("#iluminacao-perfis").removeClass('active');
+    }
 
     $scope.changeIluminacao = function(iluminacao) {
         var objIluminacao = new Iluminacao();
@@ -181,10 +219,10 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
         objIluminacao.porta  = iluminacao.porta;
         objIluminacao.status = !iluminacao.status;
         $scope.ServiceFactory.call("IluminacaoService", "acender", objIluminacao, function(data){
-            iluminacao.status = !iluminacao.status;
+            iluminacao.status = data.status;
         },
         function(data){
-            console.log(data);
+            $scope.notify('erro', 'Error', 'Não foi possível comunicar com o Arduino, contate o administrador.');
         })
     }
     

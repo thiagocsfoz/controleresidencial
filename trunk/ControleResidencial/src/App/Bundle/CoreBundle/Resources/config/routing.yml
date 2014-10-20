@@ -39,3 +39,9 @@ login_check_app:
 
 logout_app:
     pattern: /system/logout
+
+app_core_broker_teste:
+    pattern:  /websocket
+    defaults: { _controller: AppCoreBundle:WebSocket:index }
+    requirements:
+       _method: GET

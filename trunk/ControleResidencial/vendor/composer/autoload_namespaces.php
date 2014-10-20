@@ -18,6 +18,7 @@ return array(
     'Sensio\\Bundle\\DistributionBundle' => array($vendorDir . '/sensio/distribution-bundle'),
     'SensioLabs\\Security' => array($vendorDir . '/sensiolabs/security-checker'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
+    'Nc\\FayeClient' => array($vendorDir . '/nc/faye-client/src'),
     'Misd\\GuzzleBundle' => array($vendorDir . '/misd/guzzle-bundle'),
     'Incenteev\\ParameterHandler' => array($vendorDir . '/incenteev/composer-parameter-handler'),
     'Guzzle\\Tests' => array($vendorDir . '/guzzle/guzzle/tests'),

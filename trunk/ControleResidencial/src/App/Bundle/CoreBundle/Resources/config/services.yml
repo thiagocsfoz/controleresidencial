@@ -1,7 +1,18 @@
 parameters:
-#    operadores_core.example.class: Operadores\CoreBundle\Example
+    core.faye.endpoint:      'http://localhost:3000/’
+    core.faye.adapter.class: 'Nc\FayeClient\Adapter\CurlAdapter'
+    core.faye.client.class:  'Nc\FayeClient\Client'
 
 services:
+    core.faye.adapter:
+        class:     %core.faye.adapter.class%
+
+    core.faye.client:
+        class:     %core.faye.client.class%
+        arguments:
+            - @acme_demo.faye.adapter
+            - %acme_demo.faye.endpoint%
+
     render_module:
-        class:     "App\Bundle\CoreBundle\Service\RenderModuleService"
-        arguments: ['@service_container']
+            class:     "App\Bundle\CoreBundle\Service\RenderModuleService"
+            arguments: ['@service_container']

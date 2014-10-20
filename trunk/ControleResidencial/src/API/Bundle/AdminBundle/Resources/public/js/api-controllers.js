@@ -190,7 +190,7 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
                 $scope.currentEntity = new Aplicacoes();
                 $scope.form("form").$submitted = false;
 
-                //$scope.notify('success', 'Sucesso', 'Residencia adicionada com sucesso!');
+                $scope.notify('success', 'Sucesso', 'Residencia adicionada com sucesso!');
         },
         function(data){
             console.log(data);
