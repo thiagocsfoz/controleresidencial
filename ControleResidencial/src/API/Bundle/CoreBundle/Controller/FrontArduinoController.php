@@ -53,12 +53,12 @@ class FrontArduinoController extends Controller
                 $gateway = \Amfphp_Core_HttpRequestGatewayFactory::createGateway($config);
                 $gateway->service();
 
-                return new Response( $gateway->output() );
+                return new Response( $gateway->output()  );
             } else {
                 return new Response( ('Acesso não permitido.') );
             }
-        } catch (\Amfphp_Core_Exception $e){
-            return $e->getMessage();
+        } catch (\Exception $e){
+            return new Response(array("error" => $e->getMessage()) , 408 );
         }
     }
 
@@ -75,7 +75,7 @@ class FrontArduinoController extends Controller
             ->getQuery()->getArrayResult();
 
         if(!empty($query)){
-            $app['ip'] = $query[0]['ip'];
+            $GLOBALS['app'] = $query[0];
         }
 
         return !empty($query);

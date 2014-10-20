@@ -21,8 +21,14 @@ var myapp = angular.module("ControleApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-
             templateUrl : "bundles/appcontrole/templates/iluminacao/view.html",
             controller : IluminacaoController
         })
-        .state('iluminacao.listar', {
-            url: ""
+        .state('iluminacao.controle', {
+            url: "/controle"
+        })
+        .state('iluminacao.perfis', {
+            url: "/perfis"
+        })
+        .state('iluminacao.rotinas', {
+            url: "/rotinas"
         });
 
     }).constant('paginationConfig', {
@@ -35,16 +41,12 @@ var myapp = angular.module("ControleApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-
         nextText: "<i class='icon-forward'></i>",
         lastText: "<i class='icon-fast-forward'></i>",
         rotate: true
-    }).constant('languages', {
-        pt_BR : 'pt-BR',
-        es_ES : 'es-ES',
-        es : 'es'
     }).constant('uiDateConfig', {
         yearRange: new Date().getFullYear() + ":" + (new Date().getFullYear() + 20 )
-    }).directive('repeatDone', function() {
-        return function(scope, element, attrs) {
-            if (scope.$last) {
-                scope.$eval(attrs.repeatDone);
-            }
-        }
-    });
+    }).service('FayeClient', function () {
+        return new Faye.Client('http://localhost:3000/');
+    }).run(function ($rootScope, FayeClient) {
+        FayeClient.subscribe('/iluminacao-controle', function (data) {
+            $rootScope.$broadcast('controleIluminacao', data);
+        });
+    })

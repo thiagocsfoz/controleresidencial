@@ -19,9 +19,9 @@ function DashboardController( $scope, $injector, $log, $state ) {
     $("#dashboard").addClass('active');
 
     $("#iluminacao").removeClass('active');
+    $("#iluminacao").find('li').removeClass('active');
 
     //Service.call();
-
 
     //STATES
     /**

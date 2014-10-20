@@ -3,6 +3,7 @@
 namespace App\Bundle\ControleBundle\Service;
 use App\Bundle\CoreBundle\Service\AbstractService;
 use App\Bundle\ControleBundle\Entity\Iluminacao;
+use Guzzle\Http\Message\Response;
 
 
 class IluminacaoService extends AbstractService
@@ -15,13 +16,24 @@ class IluminacaoService extends AbstractService
     }
 
     public function acender(Iluminacao $iluminacao){
+        try {
         $parameters = new \StdClass();
         $parameters->porta = $iluminacao->porta;
 
+        if($iluminacao->status)
+            $return = $this->requestAPI('IluminacaoService', 'apagar', [$parameters]);
+        else
+            $return = $this->requestAPI('IluminacaoService', 'acender', [$parameters]);
+
         $iluminacao =  $this->get('doctrine')->getRepository('AppControleBundle:Iluminacao', 'app')->update( $iluminacao );
-        $this->requestAPI('IluminacaoService', 'acender', [$parameters]);
+
         return $iluminacao;
+
+        } catch (\Exception $e){
+            return new Response(array("erro" => $e->getMessage()) , 408 );
+        }
     }
+
 
     public function update( Iluminacao $iluminacao)
     {
