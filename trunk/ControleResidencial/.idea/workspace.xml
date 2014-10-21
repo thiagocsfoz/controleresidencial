@@ -2,401 +2,400 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="aa2c3a5b-236c-46a2-99d0-2fd0bc0b0fcd" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/list.html" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/controle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/.travis.yml" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/.travis.yml" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/.travis.yml" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/AbstractComparisonValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/AbstractComparisonValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/AbstractConstraintValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/AbstractConstraintValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Process/Tests/AbstractProcessTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Process/Tests/AbstractProcessTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php" afterPath="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/AbstractValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/AbstractValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/AllValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/AllValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/AnalyzeServiceReferencesPass.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/AnalyzeServiceReferencesPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/AnalyzeServiceReferencesPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/AnalyzeServiceReferencesPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/AntiFloodPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/AntiFloodPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/ApcClassLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/ApcClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/ArrayByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/ArrayByteStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ArrayCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ArrayCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/ArrayKeyCache.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/ArrayKeyCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Extension/AssetsExtension.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Extension/AssetsExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Attachment.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Attachment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/BandwidthMonitorPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/BandwidthMonitorPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/CHANGELOG-2.5.md" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/CHANGELOG-2.5.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/CallbackTransformer.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/CallbackTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/CheckCircularReferencesPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/CheckCircularReferencesPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/ChoiceValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/ChoiceValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/ClassMetadata.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/ClassMetadata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/ClassMetadataTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/ClassMetadataTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/CollectionValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/CollectionValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/CompleteConfigurationTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/CompleteConfigurationTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ConfigDebugCommand.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ConfigDebugCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ConfigurableSpool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ConfigurableSpool.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/ConfigurationTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/ConfigurationTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ConstraintValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/CountValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/CountValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CountryValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CountryValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Crawler.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Crawler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/CrawlerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/CrawlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CurrencyValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CurrencyValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Iterator/DateRangeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Iterator/DateRangeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/Iterator/DateRangeFilterIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/Iterator/DateRangeFilterIteratorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Logger/DbalLogger.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Logger/DbalLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Logger/DbalLoggerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Logger/DbalLoggerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyContainer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Request/ParamConverter/DoctrineParamConverter.php" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Request/ParamConverter/DoctrineParamConverter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/EmailValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/EmailValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/EqualToValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/EqualToValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Fragment/EsiFragmentRenderer.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Fragment/EsiFragmentRenderer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fragment/EsiFragmentRendererTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fragment/EsiFragmentRendererTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/Event.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/Event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventObject.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventObject.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Context/ExecutionContextInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Context/ExecutionContextInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/ExecutionContextTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/ExecutionContextTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Security/ExpressionLanguage.php" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Security/ExpressionLanguage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/FileValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/FileValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FilesystemCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FilesystemCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Filterable.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Filterable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/FinderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Tests/FinderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Form.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/FormTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/FormTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Validator/Constraints/FormValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Validator/Constraints/FormValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/FragmentListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/FragmentListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/EventListener/FragmentListenerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/EventListener/FragmentListenerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/FrameworkExtension.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/FrameworkExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/FrameworkExtensionTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/FrameworkExtensionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Controller/FrontArduinoController.php" afterPath="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Controller/FrontArduinoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Grammar.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Grammar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/GreaterThanValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/GreaterThanValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Header.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/EventListener/HttpCacheListener.php" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/EventListener/HttpCacheListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/IdenticalToValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/IdenticalToValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/API/Bundle/ComunicationBundle/Service/IluminacaoService.php" afterPath="$PROJECT_DIR$/src/API/Bundle/ComunicationBundle/Service/IluminacaoService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Service/IluminacaoService.php" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Service/IluminacaoService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Inline.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Inline.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/InlineTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/InlineTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/InputByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/InputByteStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/IoException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/IoException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LanguageValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LanguageValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyAllValidator2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyAllValidator2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyChoiceValidator2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyChoiceValidator2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCollectionValidatorArray2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCollectionValidatorArray2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCollectionValidatorArrayObject2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCollectionValidatorArrayObject2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCollectionValidatorCustomArrayObject2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCollectionValidatorCustomArrayObject2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCountValidatorArray2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCountValidatorArray2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCountValidatorCountable2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyCountValidatorCountable2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Constraints/LegacyFormValidator2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/Constraints/LegacyFormValidator2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyLengthValidator2Dot4ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LegacyLengthValidator2Dot4ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/LegacyValidator2Dot5ApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/LegacyValidator2Dot5ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/LegacyValidatorLegacyApiTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/LegacyValidatorLegacyApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/LengthValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/LengthValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LessThanOrEqualValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LessThanOrEqualValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LessThanValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LessThanValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LocaleValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LocaleValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Logger.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Logger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/LoggerPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/LoggerPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MailTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MailTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Message.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/NativeQpContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/NativeQpContentEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NotEqualToValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NotEqualToValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NotIdenticalToValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NotIdenticalToValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/NullTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/NullTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Builder/NumericNodeDefinition.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Builder/NumericNodeDefinition.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/OutputByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/OutputByteStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Console/Formatter/OutputFormatter.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Console/Formatter/OutputFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Formatter/OutputFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Formatter/OutputFormatterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Parser.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/ParserTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Dumper/PhpDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Dumper/PhpDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Translation/PhpExtractor.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Translation/PhpExtractor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Translation/PhpExtractorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Translation/PhpExtractorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Preferences.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Preferences.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Process/Process.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Process/Process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Controller/ProfilerController.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Controller/ProfilerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoderProxy.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoderProxy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/CssSelector/README.md" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/CssSelector/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/DependencyInjection/CompilerPass/RegisterEventListenersAndSubscribersPass.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/DependencyInjection/CompilerPass/RegisterEventListenersAndSubscribersPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/DependencyInjection/CompilerPass/RegisterEventListenersAndSubscribersPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/DependencyInjection/CompilerPass/RegisterEventListenersAndSubscribersPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/RemoveUnusedDefinitionsPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/RemoveUnusedDefinitionsPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ReplacementFilterFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ReplacementFilterFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator/Replacements.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator/Replacements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ReporterPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ReporterPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/RequestTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/RequestTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseEvent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/RfcComplianceException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/RfcComplianceException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Composer/ScriptHandler.php" afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Composer/ScriptHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/EventListener/SecurityListener.php" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/EventListener/SecurityListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendEvent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/DependencyInjection/SensioFrameworkExtraExtension.php" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/DependencyInjection/SensioFrameworkExtraExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ServerBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ServerBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/ServerBagTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/ServerBagTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/SessionListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/SessionListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Shell/Shell.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Finder/Shell/Shell.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Process/Tests/SigchildDisabledProcessTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Process/Tests/SigchildDisabledProcessTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SignedMessage.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SignedMessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Sleeper.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Sleeper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Spool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Spool.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Stopwatch/Tests/StopwatchEventTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Stopwatch/Tests/StopwatchEventTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Stopwatch/Tests/StopwatchTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Stopwatch/Tests/StopwatchTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Util/StringUtils.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Util/StringUtils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SwiftException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SwiftException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Templating/TemplateGuesser.php" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Templating/TemplateGuesser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/TestInit.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/TestInit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/TestSessionListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/TestSessionListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Timer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Timer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Translation/Translator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Translation/Translator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Translation/Translator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Translation/Translator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Translation/TranslatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Translation/TranslatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/TransportException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/TransportException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-2.5.md" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-2.5.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.0.md" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.0.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Validator/Constraints/UniqueEntityValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Validator/Constraints/UniqueEntityValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/UrlValidator.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/UrlValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/UrlValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/UrlValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Validator/Constraints/UserPasswordValidatorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Tests/Validator/Constraints/UserPasswordValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/VERSION" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Validate.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Validate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ValidatorBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/ValidatorBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Validator/ValidatorExtension.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Validator/ValidatorExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/ValidatorExtensionTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Validator/ValidatorExtensionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Core/DataTransformer/ValueToDuplicatesTransformer.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Core/DataTransformer/ValueToDuplicatesTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Core/DataTransformer/ValueToDuplicatesTransformerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Core/DataTransformer/ValueToDuplicatesTransformerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authorization/Voter/VoterInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authorization/Voter/VoterInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/XcacheClassLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/XcacheClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/XmlFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/XmlFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/XmlFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/XmlFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Loader/XmlFileLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Loader/XmlFileLoaderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/XmlFileLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/XmlFileLoaderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/admin.html.twig" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/admin.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-controllers.js" afterPath="$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bootstrap.php.cache" afterPath="$PROJECT_DIR$/app/bootstrap.php.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/composer.json" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/controleresidencial.iml" afterPath="$PROJECT_DIR$/.idea/controleresidencial.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/dashboard-controllers.js" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/dashboard-controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/fragment_renderer.xml" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/fragment_renderer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/full.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/full.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/full.xml" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/full.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/full.yml" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/full.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/dashboard/list.html" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/dashboard/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/mime_types.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/mime_types.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/phpunit.xml.dist" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/phpunit.xml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/preferences.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/preferences.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/router_dev.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/router_dev.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/router_prod.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/router_prod.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/scripts.html.twig" afterPath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/scripts.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services10.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services10.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services11.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services11.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services9.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services9_compiled.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services9_compiled.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/Fixtures/sfComments.yml" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/Fixtures/sfComments.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig" afterPath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_init.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_required.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_required.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_required_pear.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_required_pear.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/schema/symfony-1.0.xsd" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/schema/symfony-1.0.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/time.html.twig" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/time.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.css.twig" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.css.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Resources/views/translation.html.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Resources/views/translation.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/config/twig.xml" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/config/twig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/validator.xml" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/validator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.af.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.af.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ar.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ar.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.bg.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.bg.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ca.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ca.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cs.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cs.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cy.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cy.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.da.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.da.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.de.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.de.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.el.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.el.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.en.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.en.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.es.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.es.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.et.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.et.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.eu.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.eu.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fi.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fi.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fr.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fr.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.gl.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.gl.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.he.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.he.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hr.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hr.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hu.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hu.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hy.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hy.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.id.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.id.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.it.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.it.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ja.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ja.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lt.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lt.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.mn.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.mn.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nb.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nb.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nl.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nl.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.no.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.no.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pl.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pl.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt_BR.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt_BR.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ro.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ro.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ru.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ru.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sk.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sk.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sl.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sl.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sq.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sq.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Cyrl.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Cyrl.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Latn.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Latn.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sv.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sv.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.th.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.th.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.tr.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.tr.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.uk.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.uk.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.vi.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.vi.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_CN.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_CN.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_TW.xlf" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_TW.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/view.html" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/src/Nc/FayeClient/Adapter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/tests/units/Nc/FayeClient/Adapter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Cookie" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/Curl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/Curl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Exception" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/Exception" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/Exception" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/src/Nc/FayeClient" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/tests/units/Nc/FayeClient" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Message" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/src/Nc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/tests/units/Nc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Post" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Post" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Subscriber" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Subscriber" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/_static" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/_templates" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye/websocket/api" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/browser" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/cookiejar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/examples" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/examples" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/_static/guzzle-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/inherits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/node_modules/sequin/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/_static/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/node_modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/node_modules/sequin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/test/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/tests" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/cookiejar/tests" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/tests/units" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye/websocket" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/Curl/AbstractCurl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/AbstractEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/AbstractEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/AbstractMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Message/AbstractMessageTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/AbstractRequestEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/AbstractRequestEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/AbstractTransferEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/AbstractTransferEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/AdapterException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/AdapterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/src/Nc/FayeClient/Adapter/AdapterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/AppendStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/AppendStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/Curl/BatchContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/Curl/BatchContextTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/BeforeEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/CHANGELOG.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/CachingStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/CachingStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/src/Nc/FayeClient/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/tests/units/Nc/FayeClient/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ClientException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/ClientTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/CollectionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/CompleteEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Subscriber/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Cookie/CookieJarTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Subscriber/CookieTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/CouldNotRewindStreamException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/src/Nc/FayeClient/Adapter/CurlAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/Curl/CurlAdapterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/Curl/CurlFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/Curl/CurlFactoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/Emitter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/EmitterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/EmitterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/ErrorEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/ErrorEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/EventInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/FakeParallelAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/FakeParallelAdapterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Cookie/FileCookieJarTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/FnStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/FnStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/FunctionsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/src/Nc/FayeClient/Adapter/GuzzleAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/tests/units/Nc/FayeClient/Adapter/GuzzleAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/GuzzleStreamWrapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/GuzzleStreamWrapperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/HasDataTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/HasEmitterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/HasEmitterTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/HasEmitterTraitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/HeadersEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/HeadersEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Subscriber/History.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Subscriber/HistoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Subscriber/HttpError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Subscriber/HttpErrorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/InflateStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/InflateStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/cookiejar/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/LazyOpenStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/LazyOpenStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/LimitStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/LimitStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/ListenerAttacherTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/ListenerAttacherTraitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/MessageFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/MessageFactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Message/MessageFactoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/MessageInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/MessageParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Message/MessageParserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/MetadataStreamInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Mimetypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/MimetypesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Subscriber/Mock.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/MockAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/MockAdapterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Subscriber/MockTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/Curl/MultiAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/Curl/MultiAdapterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Post/MultipartBody.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Post/MultipartBodyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/NoSeekStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/NoSeekStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/ParallelAdapterInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ParseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Exception/ParseExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Post/PostBody.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Post/PostBodyInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Post/PostBodyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Post/PostFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Post/PostFileInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Post/PostFileTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Subscriber/Prepare.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Subscriber/PrepareTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/QueryParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/QueryParserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/QueryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/node_modules/sequin/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/README.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Subscriber/Redirect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Subscriber/RedirectTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/RequestAfterSendEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/RequestBeforeSendEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/RequestEvents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Event/RequestEventsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Exception/RequestExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/RequestInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/Curl/RequestMediator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/Curl/RequestMediatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Message/RequestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Message/ResponseInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Message/ResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/Exception/SeekException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/Exception/SeekExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Cookie/SessionCookieJarTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/SetCookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Cookie/SetCookieTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/Stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/StreamAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/StreamAdapterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/StreamDecoratorTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/StreamDecoratorTraitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/StreamInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/StreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/StreamingProxyAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/StreamingProxyAdapterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Event/SubscriberInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ToArrayInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/Transaction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/TransactionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Adapter/TransactionIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/TransactionIteratorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/Adapter/TransactionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/TransferException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/UPGRADING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/UriTemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/UriTemplateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Url.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/UrlTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/Utils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/tests/UtilsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/WebSocketController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/adapters.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye/websocket/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/examples/autobahn_client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/cacert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/examples/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye/websocket/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/clients.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nc/faye-client/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/conf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/cookiejar/cookiejar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/lib/csprng.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/draft75.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/draft76.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/events.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye/eventsource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/faq.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/browser/faye-browser-min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/browser/faye-browser-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/browser/faye-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node/faye-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/src/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/examples/haproxy.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/headers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/http-messages.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/http_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/infer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/server/ls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/_templates/nav_links.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/nothing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/objects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/overview.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/cookiejar/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/node_modules/sequin/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/build/packager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/perf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfis.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/streams/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/quickstart.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/cookiejar/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinas.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/csprng/node_modules/sequin/lib/sequin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/tests/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/examples/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/examples/sse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi/stream_reader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/streams.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/streams.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/example/tarray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/test/tarray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/node_modules/websocket-driver/examples/tcp_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/inherits/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/cookiejar/tests/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/docs/testing.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/test/typedarray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/typedarray/test/server/undef_globals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/lib/faye/websocket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye/node_modules/concat-stream/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/node_modules/faye-websocket/examples/ws.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="controleresidencial.iws" />
@@ -432,7 +431,7 @@
       <file leaf-file-name="scripts.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/scripts.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="52" selection-start="6255" selection-end="6255" vertical-scroll-proportion="-30.296297" vertical-offset="712" max-vertical-offset="1638">
+            <state line="85" column="52" selection-start="6255" selection-end="6255" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1638">
               <folding />
             </state>
           </provider>
@@ -441,7 +440,7 @@
       <file leaf-file-name="AbstractRepository.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Repository/AbstractRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="-0.6666667" vertical-offset="90" max-vertical-offset="1926">
+            <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2088">
               <folding />
             </state>
           </provider>
@@ -450,7 +449,7 @@
       <file leaf-file-name="AbstractService.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="9" selection-start="475" selection-end="475" vertical-scroll-proportion="15.703704" vertical-offset="730" max-vertical-offset="1980">
+            <state line="18" column="9" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1998">
               <folding />
             </state>
           </provider>
@@ -459,7 +458,7 @@
       <file leaf-file-name="FrontArduinoController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Controller/FrontArduinoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="40" selection-start="3102" selection-end="3102" vertical-scroll-proportion="0.7902331" vertical-offset="620" max-vertical-offset="1548">
+            <state line="76" column="27" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.76803553" vertical-offset="622" max-vertical-offset="1548">
               <folding />
             </state>
           </provider>
@@ -591,6 +590,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -760,10 +760,35 @@
               <option name="myItemId" value="Bundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunicationBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controleresidencial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ControleResidencial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -880,27 +905,31 @@
       <created>1410451351592</created>
       <updated>1410451351592</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003">
+      <created>1413842021674</created>
+      <updated>1413842021674</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36442047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33877552" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36442047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1131,23 +1160,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/API/Bundle/ComunicationBundle/Service/IluminacaoService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="471" selection-end="471" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="926">
-          <folding />
-        </state>
+        <state line="15" column="54" selection-start="471" selection-end="471" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="926" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Service/IluminacaoService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="123" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1206">
-          <folding />
-        </state>
+        <state line="27" column="123" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1206" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="16" selection-start="6684" selection-end="6684" vertical-scroll-proportion="0.40212765" vertical-offset="3078" max-vertical-offset="6750">
-          <folding />
-        </state>
+        <state line="192" column="16" selection-start="6684" selection-end="6684" vertical-scroll-proportion="0.40212765" vertical-offset="3078" max-vertical-offset="6750" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/ResourcesController.php">
@@ -1167,9 +1190,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="38" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.55531913" vertical-offset="0" max-vertical-offset="1026">
-          <folding />
-        </state>
+        <state line="29" column="38" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.55531913" vertical-offset="0" max-vertical-offset="1026" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js">
@@ -1181,28 +1202,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/scripts.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="52" selection-start="6255" selection-end="6255" vertical-scroll-proportion="-30.296297" vertical-offset="712" max-vertical-offset="1638">
+        <state line="85" column="52" selection-start="6255" selection-end="6255" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1638">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Repository/AbstractRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="-0.6666667" vertical-offset="90" max-vertical-offset="1926">
+        <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2088">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="475" selection-end="475" vertical-scroll-proportion="15.703704" vertical-offset="730" max-vertical-offset="1980">
+        <state line="18" column="9" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1998">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Controller/FrontArduinoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="40" selection-start="3102" selection-end="3102" vertical-scroll-proportion="0.7902331" vertical-offset="620" max-vertical-offset="1548">
+        <state line="76" column="27" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.76803553" vertical-offset="622" max-vertical-offset="1548">
           <folding />
         </state>
       </provider>
