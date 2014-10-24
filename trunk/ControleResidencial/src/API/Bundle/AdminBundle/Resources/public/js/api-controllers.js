@@ -211,7 +211,7 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
 
             },
             function(data){
-                $scope.notify('error', 'Não foi possível salvar a residência', data.error);
+                $scope.notify('danger', 'Não foi possível salvar a residência', data.error);
             })
     }
 
