@@ -222,7 +222,7 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
             iluminacao.status = data.status;
         },
         function(data){
-            $scope.notify('erro', 'Error', 'Não foi possível comunicar com o Arduino, contate o administrador.');
+            $scope.notify('danger', 'Error', 'Não foi possível comunicar com o Arduino, contate o administrador.');
         })
     }
     
