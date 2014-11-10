@@ -11,13 +11,17 @@ security:
         - { path: ^/api/app/arduino,          roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/system/login,      roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api,                   roles:  ROLE_API }
-        - { path: ^/$,                     roles:  ROLE_USER }
+        - { path: ^/$,                     roles:  [ ROLE_USER, ROLE_ADMIN ] }
 
     providers:
-        in_memory:
+        in_memory_api:
             memory:
                 users:
                     admin: { password: admin, roles: 'ROLE_API' }
+        in_memory_app:
+            memory:
+                users:
+                    admin: { password: admin, roles: 'ROLE_ADMIN' }
         user_db:
             entity: { class: App\Bundle\CoreBundle\Entity\User, property: username }
 
@@ -28,10 +32,7 @@ security:
         restricted_area_api:
               pattern:          ^/api
               anonymous:        ~
-              provider:         in_memory
-              # alternative configuration
-              # imag_ldap:
-              #   login_path:   /ninja/login
+              provider:         in_memory_api
               form_login:
                 login_path: /api/system/login
                 check_path: /api/system/login_check
@@ -46,9 +47,6 @@ security:
               pattern:          ^/
               anonymous:        ~
               provider:         user_db
-              # alternative configuration
-              # imag_ldap:
-              #   login_path:   /ninja/login
               form_login:
                 login_path: /system/login
                 check_path: /system/login_check
@@ -59,25 +57,3 @@ security:
               logout:
                 path:           /system/logout
                 target:         /
-        #dev:
-        #    pattern:  ^/(_(profiler|wdt)|css|images|js)/
-        #    security: false
-
-        #login:
-        #    pattern:  ^/demo/secured/login$
-        #    security: false
-
-        #secured_area:
-        #    pattern:    ^/demo/secured/
-        #    form_login:
-        #        check_path: _security_check
-        #        login_path: _demo_login
-        #    logout:
-        #        path:   _demo_logout
-        #        target: _demo
-        #    anonymous: ~
-        #    http_basic:
-        #        realm: "Secured Demo Area"
-
-    #access_control:
-        #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }

@@ -17,30 +17,43 @@
         </a>
         <ul class="nav collapse" style="height: 0px;">
             <li id="iluminacao-controle">
-                <a href="#/iluminacao/controle" title="Controle" data-toggle="" class="no-submenu">
+                <a href="{{ asset('#/iluminacao/controle') }}" title="Controle" data-toggle="" class="no-submenu">
                     <span class="item-text">Controle</span>
                 </a>
             </li>
             <li id="iluminacao-perfis">
-                <a href="#/iluminacao/perfis"  title="Perfis" data-toggle="" class="no-submenu">
+                <a href="{{ asset('#/iluminacao/perfis') }}"  title="Perfis" data-toggle="" class="no-submenu">
                     <span class="item-text">Perfis</span>
                 </a>
             </li>
+            <!--
             <li id="iluminacao-rotinas">
                 <a href="#/iluminacao/rotinas" title="Rotinas" data-toggle="" class="no-submenu">
                     <span class="item-text">Rotinas</span>
                 </a>
             </li>
+            -->
         </ul>
-
+    </li>
+    <li id="portoes-cortinas">
+        <a href="{{ asset('#/portoes') }}" title="Forms" data-toggle="collapse-next" class="no-submenu">
+            <em class="fa fa-unlock-alt"></em>
+            <span class="item-text">Portões e Cortinas</span>
+        </a>
+    </li>
+    <li id="alarmes">
+        <a href="{{ asset('#/alarmes') }}" title="Forms" data-toggle="collapse-next" class="no-submenu">
+            <em class="fa fa-bullhorn"></em>
+            <span class="item-text">Alarmes</span>
+        </a>
     </li>
     <li class="nav-footer">
         <div class="nav-footer-divider"></div>
         <!-- START button group-->
         <div class="btn-group text-center">
-            <button type="button" data-toggle="tooltip" data-title="Configuração" class="btn btn-link" data-original-title="" title="">
+            <a type="button" href="{{ asset('admin') }}" data-toggle="tooltip" data-title="Configuração" class="btn btn-link" data-original-title="" title="">
                 <em class="fa fa-cog text-muted"></em>
-            </button>
+            </a>
             <a type="button" data-toggle="tooltip" data-title="Sair" class="btn btn-link" data-original-title="" title="" href="{{ path("logout_app") }}">
                 <em class="fa fa-sign-out text-muted"></em>
             </a>

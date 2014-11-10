@@ -8,11 +8,17 @@ var myapp = angular.module("ControleApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-
         //Admin
         $stateProvider.state('admin', {
             url : "",
-            templateUrl : "../bundles/appadmin/templates/view.html",
+            templateUrl : "bundles/appadmin/templates/view.html",
             controller : AdminController
         })
         .state('admin.listar', {
             url: "/"
+        })
+        .state('admin.user.new', {
+            url: "/user/new"
+        })
+        .state('admin.user.edit', {
+            url: "/user/edit/:id"
         });
 
     }).constant('paginationConfig', {

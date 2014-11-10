@@ -4,11 +4,49 @@
         <small>Perfis de iluminação da sua residencia.</small>
     </h3>
     <div class="page-header">
-        <button type="button" class="btn btn-primary">Adicionar Novo</button>
+        <div class="row">
+            <div class="col-lg-3" style="margin-bottom: 5px">
+                <button ui-sref="iluminacao.perfis.new" type="button" class="btn btn-primary">Adicionar Novo</button>
+            </div>
+            <div class="col-lg-3" style="margin-bottom: 5px">
+                <select class="form-control">
+                    <option>Perfil 1</option>
+                    <option>Perfil 2</option>
+                    <option>Perfil 3</option>
+                </select>
+            </div>
+            <div class="col-lg-3" style="margin-bottom: 5px">
+                <button type="button" class="btn btn-primary">Alterar</button>
+                <button type="button" class="btn btn-primary">Excluír</button>
+            </div>
+        </div>
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <div style="height: 335px; border: 1px solid rgb(212,212,212);" ng-grid="gridPerfisOptions" ></div>
+            <div class="row" style="margin-bottom: 10px">
+                <div class="col-lg-12">
+                    <label class="col-sm-6 control-label">Perfil 1</label>
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-success col-xs-12 col-sm-6 col-md-6">Usar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 10px">
+                <div class="col-lg-12">
+                    <label class="col-sm-6 control-label">Perfil 2</label>
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-success col-xs-12 col-sm-6 col-md-6">Usar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 10px">
+                <div class="col-lg-12">
+                    <label class="col-sm-6 control-label">Perfil 3</label>
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-success col-xs-12 col-sm-6 col-md-6">Usar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

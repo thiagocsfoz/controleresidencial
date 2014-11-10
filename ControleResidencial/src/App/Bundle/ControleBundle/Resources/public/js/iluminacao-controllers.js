@@ -18,6 +18,8 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
 	 *-------------------------------------------------------------------*/
     $("#iluminacao").addClass('active');
     $("#dashboard").removeClass('active');
+    $("#portoes-cortinas").removeClass('active');
+    $("#alarmes").removeClass('active');
 
     $scope.$on('controleIluminacao', function (event, data) {
         $scope.iluminacaoList = data;
@@ -38,6 +40,8 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
      * o estado de detalhe de um registro.
      */
     $scope.PERFIS_STATE = "iluminacao.perfis";
+    $scope.PERFIS_NEW = "iluminacao.perfis.new";
+    $scope.PERFIS_EDIT = "iluminacao.perfis.edit";
 	/**
 	 * Variável estática que representa
      * o estado para a criação de registros.
@@ -154,6 +158,10 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
 				$scope.changeToUpdate( $state.params.id );
 			}
 			break;
+            case $scope.PERFIS_NEW: {
+                $scope.changeToNewPerfil();
+            }
+                break;
 			default : {
 				$state.go( $scope.LIST_STATE );
 			}
@@ -224,6 +232,10 @@ function IluminacaoController( $scope, $injector, $log, $state, ServiceFactory, 
         function(data){
             $scope.notify('danger', 'Error', 'Não foi possível comunicar com o Arduino, contate o administrador.');
         })
+    }
+
+    $scope.changeToNewPerfil = function(){
+        $scope.currentState = $scope.PERFIS_NEW;
     }
     
     /**

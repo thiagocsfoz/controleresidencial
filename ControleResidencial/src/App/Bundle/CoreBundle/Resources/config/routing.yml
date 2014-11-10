@@ -23,7 +23,7 @@ project_app_download:
       _method: GET
 
 app_pages:
-    pattern:  /
+    pattern:  /{module}
     defaults: { _controller: AppCoreBundle:Navigation:index, module: controle}
     requirements:
        _method: GET
