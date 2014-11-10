@@ -6,7 +6,7 @@
  * @param $log
  * @param $location
  */
-function DashboardController( $scope, $injector, $log, $state ) {
+function PortoesController( $scope, $injector, $log, $state, ServiceFactory, $rootScope ) {
 	/**
 	 * Injeta os métodos, atributos e seus estados herdados de AbstractController.
 	 * @see AbstractController
@@ -16,31 +16,36 @@ function DashboardController( $scope, $injector, $log, $state ) {
 	/*-------------------------------------------------------------------
 	 * 		 				 	ATTRIBUTES
 	 *-------------------------------------------------------------------*/
-    $("#dashboard").addClass('active');
-
-    $("#iluminacao").removeClass('active');
+    $("#portoes-cortinas").addClass('active');
+    $("#dashboard").removeClass('active');
     $("#iluminacao").find('li').removeClass('active');
-    $("#portoes-cortinas").removeClass('active');
+    $("#iluminacao").removeClass('active');
     $("#alarmes").removeClass('active');
 
+    $scope.$on('controleIluminacao', function (event, data) {
+        $scope.iluminacaoList = data;
+        $scope.$apply();
+    });
+
     //Service.call();
+    $scope.ServiceFactory = ServiceFactory;
 
     //STATES
     /**
      * Variável estática que representa 
      * o estado de listagem de registros.
      */
-    $scope.LIST_STATE = "dashboard.listar";
+    $scope.LIST_STATE = "portoes.listar";
     /**
      * Variável estática que representa
      * o estado de detalhe de um registro.
      */
-    $scope.DETAIL_STATE = "tiro.detalhe";
+    $scope.PERFIS_STATE = "iluminacao.perfis";
 	/**
 	 * Variável estática que representa
      * o estado para a criação de registros.
      */
-    $scope.INSERT_STATE = "tiro.cooking";
+    $scope.ROTINAS_STATE = "iluminacao.rotinas";
 	/**
 	 * Variável estática que representa
      * o estado para a edição de registros.
@@ -86,6 +91,22 @@ function DashboardController( $scope, $injector, $log, $state ) {
 		             	{displayName:'Ações', sortable:false, cellTemplate: GRID_ACTION_BUTTONS, width:'70px'}
 		            ]
     };
+
+    $scope.gridPerfisOptions = {
+        data: 'perfilIluminacaoList',
+        multiSelect: false,
+        useExternalSorting: true,
+        beforeSelectionChange: function (row, event) {
+            //evita chamar a selecao, quando clicado em um action button.
+            if ( $(event.target).is("a") || $(event.target).is("i") ) return false;
+            $state.go($scope.DETAIL_STATE, {id:row.entity.id});
+        },
+        columnDefs: [
+            {displayName:'Nome', field:'nome', width:'45%'},
+            {displayName:'Lampadas', field:'lampadas', width:'50%'},
+            {displayName:'Ações', sortable:false, cellTemplate: GRID_ACTION_BUTTONS, width:'70px'}
+        ]
+    };
     
     /**
      * Variável que armazena o estado da paginação 
@@ -121,15 +142,15 @@ function DashboardController( $scope, $injector, $log, $state ) {
 
     	switch (state) {
 			case $scope.LIST_STATE: {
-				$scope.changeToList();
+				$scope.changeToControle();
 			}
 			break;
-			case $scope.DETAIL_STATE: {
-				$scope.changeToDetail( $state.params.id );
+			case $scope.PERFIS_STATE: {
+				$scope.changeToPerfis();
 			}
 			break;
-			case $scope.INSERT_STATE: {
-				$scope.changeToInsert();
+			case $scope.ROTINAS_STATE: {
+				$scope.changeToRotinas();
 			}
 			break;
 			case $scope.UPDATE_STATE: {
@@ -150,16 +171,63 @@ function DashboardController( $scope, $injector, $log, $state ) {
      * 
      * Para mudar para este estado, deve-se primeiro carregar os dados da consulta.
      */
-    $scope.changeToList = function() {
+    $scope.changeToControle = function() {
     	$log.info("changeToList");
 
     	var pageRequest = {};
     	pageRequest.size = 10;
 
-        $scope.currentState = $scope.LIST_STATE;
-        $scope.pageRequest = pageRequest;
-    	
+//        $scope.currentState = $scope.CONTROLE_STATE;
+//        $scope.pageRequest = pageRequest;
+//        $("#iluminacao-controle").addClass('active');
+//        $("#iluminacao-perfis").removeClass('active');
+//        $("#iluminacao-rotinas").removeClass('active');
+//
+//        $scope.ServiceFactory.call("IluminacaoService", "listAll", null, function(data){
+//                $scope.iluminacaoList = data;
+//            },
+//            function(data){
+//                console.log(data);
+//            })
     };
+
+    $scope.changeToPerfis = function(){
+        $scope.currentState = $scope.PERFIS_STATE;
+
+        $("#iluminacao-perfis").addClass('active');
+        $("#iluminacao-controle").removeClass('active');
+        $("#iluminacao-rotinas").removeClass('active');
+
+        $scope.ServiceFactory.call("PerfilIluminacaoService", "listAll", null, function(data){
+            $scope.perfilIluminacaoList = data;
+        },
+        function(data){
+            console.log(data);
+        })
+    }
+
+    $scope.changeToRotinas = function(){
+        $scope.currentState = $scope.ROTINAS_STATE;
+
+        $("#iluminacao-rotinas").addClass('active');
+        $("#iluminacao-controle").removeClass('active');
+        $("#iluminacao-perfis").removeClass('active');
+    }
+
+    $scope.changeIluminacao = function(iluminacao) {
+        var objIluminacao = new Iluminacao();
+
+        objIluminacao.id     = iluminacao.id;
+        objIluminacao.nome   = iluminacao.nome;
+        objIluminacao.porta  = iluminacao.porta;
+        objIluminacao.status = !iluminacao.status;
+        $scope.ServiceFactory.call("IluminacaoService", "acender", objIluminacao, function(data){
+            iluminacao.status = data.status;
+        },
+        function(data){
+            $scope.notify('danger', 'Error', 'Não foi possível comunicar com o Arduino, contate o administrador.');
+        })
+    }
     
     /**
      * Realiza os procedimentos iniciais (prepara o estado) 

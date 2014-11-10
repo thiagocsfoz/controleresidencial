@@ -27,8 +27,32 @@ var myapp = angular.module("ControleApp", ['ui.bootstrap', 'ngGrid', 'eits-grid-
         .state('iluminacao.perfis', {
             url: "/perfis"
         })
+        .state('iluminacao.perfis.new', {
+            url: "/perfis/new"
+        })
+        .state('iluminacao.perfis.edit', {
+            url: "/perfis/edit/:id"
+        })
         .state('iluminacao.rotinas', {
             url: "/rotinas"
+        });
+
+        $stateProvider.state('alarmes', {
+            url : "/alarmes",
+            templateUrl : "bundles/appcontrole/templates/alarmes/view.html",
+            controller : AlarmesController
+        })
+        .state('alarmes.list', {
+            url: ""
+        });
+
+        $stateProvider.state('portoes', {
+            url : "/portoes",
+            templateUrl : "bundles/appcontrole/templates/portoes/view.html",
+            controller : PortoesController
+        })
+        .state('portoes.listar', {
+            url: ""
         });
 
     }).constant('paginationConfig', {

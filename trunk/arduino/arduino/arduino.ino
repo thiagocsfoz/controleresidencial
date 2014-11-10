@@ -16,6 +16,12 @@ static uint16_t port = 80;                                      // Use port 80 -
 
 ETHER_28J60 ethernet;
 
+const int sensorPin = A0;
+float sensorValue_aux = 0;
+float sensorValue = 0;
+float currentValue = 0;
+float voltsporUnidade = 0.0048828125;
+
 void setup()
 { 
   pinMode (8, OUTPUT);
@@ -26,14 +32,31 @@ void setup()
 }
 
 void loop()
-{
+{  
+   for(int i=500; i>0; i--)
+   {
+   sensorValue_aux = (analogRead(sensorPin) -511); // le o sensor na pino analogico A0 e ajusta o valor lido ja que a saída do sensor é vcc/2 para corrente =0
+   sensorValue += pow(sensorValue_aux,2); // soam os quadardos das leituras no laco
+   }
+   
+   sensorValue = (sqrt(sensorValue/ 500)) * voltsporUnidade; // finaliza o calculo da méida quadratica e ajusta o valor lido para volts
+   currentValue = (sensorValue/66)*1000; // calcula a corrente considerando a sensibilidade do sernsor (66 mV por amper)
+  
+  
   char* param;
   if (param = ethernet.serviceRequest())
   {
-    if(strcmp(param, "?s=iluminacao&a=true&p=08") == 0){
+    ethernet.print("Corrent: ");
+    ethernet.print(currentValue);
+    
+    if(strcmp(param, "?s=iluminacao&a=true&p=8") == 0){
         digitalWrite (8, HIGH);
-        ethernet.respond();
+    }
+    if(strcmp(param, "?s=iluminacao&a=false&p=8") == 0){
+        digitalWrite (8, LOW);
     }    
+    
+    ethernet.respond();    
   }
   delay(100);
 }

@@ -54,6 +54,10 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
 	 */
     $scope.currentEntity;
 
+    $scope.usuarios = [
+        {'id': 1, 'login': 'thiago', 'nome': 'Thiago', 'sobrenome': 'Santos'}
+    ];
+
 
     //DATA GRID
     /**
@@ -73,15 +77,15 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
      * @see https://github.com/angular-ui/ng-grid/wiki/Configuration-Options
      */
     $scope.gridOptions = { 
-		data: 'aplicacoes',
+		data: 'usuarios',
 		multiSelect: false,
         enableSorting: false,
         enableRowSelection: false,
 		columnDefs: [
             {displayName:'#', field:'id', width:'5%'},
-            {displayName:'Nome Residencia', field:'nome', width:'25%'},
-            {displayName:'Endereço Arduino', field:'ip', width:'24%'},
-            {displayName:'Token', field:'token', width:'28%', cellTemplate: '<div class="ngCellText ng-scope" style="-moz-user-select: initial; -khtml-user-select: initial; -webkit-user-select: initial; -ms-user-select: initial; user-select: initial;"> {{row.entity.token}}</div>'},
+            {displayName:'Login', field:'login', width:'25%'},
+            {displayName:'Nome', field:'nome', width:'24%'},
+            {displayName:'Sobrenome', field:'sobrenome', width:'28%' },
             {displayName:'Ações', sortable:false, cellTemplate: GRID_ACTION_BUTTONS, width:'15%'}
         ]
     };
@@ -140,12 +144,21 @@ function AdminController( $scope, $injector, $log, $state, ServiceFactory, $moda
     $scope.changeToList = function() {
     	$log.info("changeToList");
 
+        $scope.currentStateUser = "list";
     	var pageRequest = {};
     	pageRequest.size = 10;
 
         $scope.currentState = $scope.LIST_STATE;
         $scope.pageRequest = pageRequest;
     };
+
+    $scope.changeToNewUser = function (){
+        $scope.currentStateUser = "new";
+    }
+
+    $scope.changeToListUser = function(){
+        $scope.currentStateUser = "list";
+    }
     
     /**
      * Realiza os procedimentos iniciais (prepara o estado) 

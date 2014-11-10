@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="aa2c3a5b-236c-46a2-99d0-2fd0bc0b0fcd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php" afterPath="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-controllers.js" afterPath="$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/app/css/app.css" afterPath="$PROJECT_DIR$/web/assets/app/css/app.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/js/home-controllers.js" afterPath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/js/admin-controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/js/admin-main.js" afterPath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/js/admin-main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/dashboard-controllers.js" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/dashboard-controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/dashboard/list.html" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/dashboard/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/templates/list.html" afterPath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/templates/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/login.html.twig" afterPath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/login.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfis.html" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfis.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinas.html" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/views/Default/scripts.html.twig" afterPath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/views/Default/scripts.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/views/Default/scripts.html.twig" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/views/Default/scripts.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig" afterPath="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/templates/view.html" afterPath="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/templates/view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/view.html" afterPath="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="controleresidencial.iws" />
@@ -30,10 +42,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/assets/app/css/app.css">
+      <file leaf-file-name="Aplicacoes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API/Bundle/AdminBundle/Entity/Aplicacoes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="423" selection-end="423" vertical-scroll-proportion="0.4564184" vertical-offset="0" max-vertical-offset="86094">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="242" column="0" selection-start="4994" selection-end="4994" vertical-scroll-proportion="-7.6296296" vertical-offset="4114" max-vertical-offset="5040">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Entity/Role.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="34" selection-start="1822" selection-end="1822" vertical-scroll-proportion="-4.296296" vertical-offset="1612" max-vertical-offset="2538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerfilIluminacao.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Entity/PerfilIluminacao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="926">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Iluminacao.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Entity/Iluminacao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="7" selection-start="474" selection-end="474" vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -78,24 +126,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Repository/IRepository.php" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Repository/IluminacaoRepository.php" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/public/js/abstract-controller.js" />
-        <option value="$PROJECT_DIR$/web/app.php" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/dashboard/view.html" />
-        <option value="$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-main.js" />
-        <option value="$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/templates/view.html" />
-        <option value="$PROJECT_DIR$/web/.htaccess" />
-        <option value="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Controller/FrontController.php" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Service/TesteService.php" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/entity/Iluminacao.js" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/views/Default/scripts.html.twig" />
-        <option value="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Repository/AbstractRepository.php" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Repository/AbstractRepository.php" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Entity/ApiRequest.php" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Service/AbstractService.php" />
@@ -104,40 +135,57 @@
         <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/list.html" />
         <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Service/PerfilIluminacaoService.php" />
         <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Repository/PerfilIluminacaoRepository.php" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/view.html" />
         <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/controle.html" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinas.html" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/ResourcesController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/dashboard-controllers.js" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/WebSocketController.php" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/EventListener/Iluminacao.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/EventListener/IluminacaoSubscriber.php" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfis.html" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/EventListener/IluminacaoListener.php" />
         <option value="$PROJECT_DIR$/src/API/Bundle/ComunicationBundle/Service/IluminacaoService.php" />
         <option value="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Controller/FrontArduinoController.php" />
         <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Service/IluminacaoService.php" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js" />
         <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/scripts.html.twig" />
         <option value="$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php" />
         <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/dashboard/list.html" />
         <option value="$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-controllers.js" />
-        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js" />
         <option value="$PROJECT_DIR$/web/assets/app/css/app.css" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/alarmes/view.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/views/Default/scripts.html.twig" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/portoes/view.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/portoes/list.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/portoes-controllers.js" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/dashboard-controllers.js" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/alarmes-controllers.js" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/view.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfis.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinas.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinasNew.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfisNew.html" />
+        <option value="$PROJECT_DIR$/web/.htaccess" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/views/Default/scripts.html.twig" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/templates/view.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/js/admin-main.js" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/templates/list.html" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/js/admin-controllers.js" />
+        <option value="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/alarmes/list.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
-    <option name="y" value="24" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -165,6 +213,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,86 +242,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controleresidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControleResidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controleresidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControleResidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controleresidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControleResidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controleresidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControleResidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,15 +298,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Default" />
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,11 +324,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CoreBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="ControleBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,18 +349,12 @@
               <option name="myItemId" value="Bundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controleresidencial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ControleResidencial" />
+              <option name="myItemId" value="ControleBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,21 +368,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controleresidencial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ControleResidencial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,11 +437,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/App/Bundle/CoreBundle/EventListener" />
-      <recent name="$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller" />
       <recent name="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao" />
-      <recent name="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Service" />
-      <recent name="$PROJECT_DIR$/src/API/Bundle/ComunicationBundle/Service" />
+      <recent name="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js" />
+      <recent name="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/portoes" />
+      <recent name="$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/alarmes" />
+      <recent name="$PROJECT_DIR$/src/App/Bundle/CoreBundle/EventListener" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vendor" />
@@ -568,23 +536,26 @@
       <created>1413908075973</created>
       <updated>1413908075973</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008">
+      <created>1414166396482</created>
+      <updated>1414166396482</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20161726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33877552" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21078168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32756868" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -596,6 +567,7 @@
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33699232" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756868" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -619,300 +591,286 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/guzzle/guzzle/README.md">
+    <entry file="file://$PROJECT_DIR$/web/assets/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="75" selection-start="1078" selection-end="1119" vertical-scroll-proportion="0.43953487" vertical-offset="0" max-vertical-offset="860" />
+        <state line="1948" column="14" selection-start="62411" selection-end="62417" vertical-scroll-proportion="-11.633333" vertical-offset="34715" max-vertical-offset="46512" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/public/js/abstract-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896" />
+        <state line="70" column="13" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.35237068" vertical-offset="933" max-vertical-offset="1872" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/view.html">
+    <entry file="file://$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="607" selection-end="607" vertical-scroll-proportion="0.2611607" vertical-offset="0" max-vertical-offset="896" />
+        <state line="200" column="41" selection-start="6925" selection-end="6925" vertical-scroll-proportion="0.5625" vertical-offset="3078" max-vertical-offset="6750" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinas.html">
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/dashboard/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="279" selection-end="279" vertical-scroll-proportion="0.16308041" vertical-offset="0" max-vertical-offset="883" />
+        <state line="19" column="26" selection-start="925" selection-end="925" vertical-scroll-proportion="0.37957823" vertical-offset="0" max-vertical-offset="901" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="54" selection-start="653" selection-end="653" vertical-scroll-proportion="-6.296296" vertical-offset="136" max-vertical-offset="1062" />
+        <state line="11" column="50" selection-start="282" selection-end="282" vertical-scroll-proportion="0.13606912" vertical-offset="54" max-vertical-offset="1998" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/scripts.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="52" selection-start="6255" selection-end="6255" vertical-scroll-proportion="0.8833693" vertical-offset="712" max-vertical-offset="1638" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="29" selection-start="927" selection-end="951" vertical-scroll-proportion="0.5053996" vertical-offset="0" max-vertical-offset="926" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="926" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nc/faye-client/README.md">
+    <entry file="file://$PROJECT_DIR$/web/assets/app/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="193" selection-end="216" vertical-scroll-proportion="0.13186814" vertical-offset="0" max-vertical-offset="918" />
+        <state line="5" column="54" selection-start="154" selection-end="240" vertical-scroll-proportion="0.14263074" vertical-offset="0" max-vertical-offset="1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="1" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="86094" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/alarmes/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/views/Default/scripts.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/portoes/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="39" selection-start="67" selection-end="73" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/controle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="160" selection-end="1341" vertical-scroll-proportion="-16.666666" vertical-offset="0" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/portoes/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="30" selection-start="2266" selection-end="2266" vertical-scroll-proportion="-22.703703" vertical-offset="197" max-vertical-offset="1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/styles.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="913" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/alarmes-controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="657" selection-end="657" vertical-scroll-proportion="0.38297874" vertical-offset="0" max-vertical-offset="6606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/dashboard-controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="645" selection-end="645" vertical-scroll-proportion="0.4212766" vertical-offset="0" max-vertical-offset="5364" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/portoes-controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="751" selection-end="751" vertical-scroll-proportion="-10.433333" vertical-offset="101" max-vertical-offset="6588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.45225602" vertical-offset="199" max-vertical-offset="1152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="30" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="758" selection-end="758" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="0" selection-start="8259" selection-end="8259" vertical-scroll-proportion="0.0" vertical-offset="3672" max-vertical-offset="6750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinasNew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="41" selection-start="361" selection-end="361" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="212" selection-end="212" vertical-scroll-proportion="0.17456897" vertical-offset="0" max-vertical-offset="928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="41" selection-start="2163" selection-end="2163" vertical-scroll-proportion="-12.315789" vertical-offset="0" max-vertical-offset="1404" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/NavigationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="926" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/WebSocketController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="926" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.20518358" vertical-offset="190" max-vertical-offset="1116" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/ResourcesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="32" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="2052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/views/Default/scripts.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="79" selection-start="279" selection-end="279" vertical-scroll-proportion="0.08940397" vertical-offset="0" max-vertical-offset="604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="953" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="10" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/sidebar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="46" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/templates/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.13606912" vertical-offset="0" max-vertical-offset="926" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfisNew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="294" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/rotinas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="493" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="150" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/js/admin-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="737" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="66" selection-start="4185" selection-end="4201" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/AdminBundle/Resources/public/js/admin-controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="6822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/alarmes/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="44" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/public/lib/angular/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
+          <folding />
+        </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/dashboard-controllers.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/public/lib/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="658" selection-end="658" vertical-scroll-proportion="0.06101695" vertical-offset="378" max-vertical-offset="5328" />
+        <state line="1" column="29" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="370782">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/API/Bundle/AdminBundle/Entity/Aplicacoes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="16" selection-start="919" selection-end="919" vertical-scroll-proportion="0.65924275" vertical-offset="56" max-vertical-offset="954" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/WebSocketController.php">
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504" />
+        <state line="242" column="0" selection-start="4994" selection-end="4994" vertical-scroll-proportion="-7.6296296" vertical-offset="4114" max-vertical-offset="5040">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/node_modules/server.js">
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Entity/Role.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="873" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="52" selection-start="42" selection-end="64" vertical-scroll-proportion="0.020618556" vertical-offset="0" max-vertical-offset="873" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/EventListener/IluminacaoSubscriber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="613" selection-end="1114" vertical-scroll-proportion="-10.925926" vertical-offset="155" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="800" selection-end="800" vertical-scroll-proportion="-6.296296" vertical-offset="208" max-vertical-offset="1134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="18" selection-start="3089" selection-end="3089" vertical-scroll-proportion="0.0" vertical-offset="1262" max-vertical-offset="2196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Repository/AbstractRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="40" selection-start="2542" selection-end="2558" vertical-scroll-proportion="-18.666666" vertical-offset="1080" max-vertical-offset="1926" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/controle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="63" selection-start="145" selection-end="145" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="576" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="3327" selection-end="3470" vertical-scroll-proportion="-26.037037" vertical-offset="179" max-vertical-offset="1062" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Entity/PerfilIluminacao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="17" selection-start="629" selection-end="629" vertical-scroll-proportion="0.58258927" vertical-offset="0" max-vertical-offset="896" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/EventListener/IluminacaoListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="406" selection-end="406" vertical-scroll-proportion="0.22732492" vertical-offset="0" max-vertical-offset="871" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/iluminacao/perfis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="102" selection-start="421" selection-end="421" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="342" />
+        <state line="98" column="34" selection-start="1822" selection-end="1822" vertical-scroll-proportion="-4.296296" vertical-offset="1612" max-vertical-offset="2538">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Entity/Iluminacao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/HttpException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="133" selection-end="146" vertical-scroll-proportion="0.1859931" vertical-offset="0" max-vertical-offset="871" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Common/Exception/ExceptionCollection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="74" selection-end="74" vertical-scroll-proportion="0.10332951" vertical-offset="0" max-vertical-offset="2052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/CurlException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="137" selection-end="153" vertical-scroll-proportion="0.1859931" vertical-offset="0" max-vertical-offset="1926" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Service/AbstractService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="48" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.61768085" vertical-offset="1316" max-vertical-offset="2214" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Controller/NavigationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="368" selection-end="368" vertical-scroll-proportion="0.35132033" vertical-offset="0" max-vertical-offset="871" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="19" selection-start="1387" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="9540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/ComunicationBundle/Service/IluminacaoService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="471" selection-end="471" vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="926" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Service/IluminacaoService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="123" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1206" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Controller/ResourcesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="24" selection-start="1442" selection-end="1481" vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="2052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Controller/ResourcesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2630938" vertical-offset="216" max-vertical-offset="2052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Service/RenderModuleService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="59" selection-start="421" selection-end="421" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="396" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/controle-main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="38" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.55531913" vertical-offset="0" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Repository/AbstractRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2088">
+        <state line="21" column="7" selection-start="474" selection-end="474" vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Controller/FrontArduinoController.php">
+    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Entity/PerfilIluminacao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="27" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.7473002" vertical-offset="622" max-vertical-offset="1548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Resources/public/js/abstract-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.86206895" vertical-offset="800" max-vertical-offset="1728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1948" column="14" selection-start="62411" selection-end="62417" vertical-scroll-proportion="-11.633333" vertical-offset="34715" max-vertical-offset="46512">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/public/js/abstract-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="13" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.35237068" vertical-offset="933" max-vertical-offset="1872">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/AdminBundle/Resources/public/js/api-controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="41" selection-start="6925" selection-end="6925" vertical-scroll-proportion="0.5625" vertical-offset="3078" max-vertical-offset="6750">
-          <folding>
-            <marker date="1414165645613" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1414165645613" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1414165645613" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/js/iluminacao-controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="45" selection-start="7489" selection-end="7489" vertical-scroll-proportion="0.0" vertical-offset="3783" max-vertical-offset="6534">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/public/templates/dashboard/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="925" selection-end="925" vertical-scroll-proportion="0.37957823" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Bundle/CoreBundle/Service/AbstractService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="282" selection-end="282" vertical-scroll-proportion="0.13606912" vertical-offset="54" max-vertical-offset="1998">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/ControleBundle/Resources/views/Default/scripts.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/scripts.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="52" selection-start="6255" selection-end="6255" vertical-scroll-proportion="0.8833693" vertical-offset="712" max-vertical-offset="1638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
-          <folding>
-            <marker date="1410370192432" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/styles.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="927" selection-end="951" vertical-scroll-proportion="0.5053996" vertical-offset="0" max-vertical-offset="926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/Bundle/CoreBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/app/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="154" selection-end="240" vertical-scroll-proportion="0.14263074" vertical-offset="0" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/app/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="423" selection-end="423" vertical-scroll-proportion="0.4564184" vertical-offset="0" max-vertical-offset="86094">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>
